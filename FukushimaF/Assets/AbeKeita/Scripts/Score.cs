@@ -4,6 +4,7 @@ using System.Collections;
 
 public class Score : MonoBehaviour {
 
+    public float bonuspoint=5;
 	private float score;
     IcarusController icaruscontroller;
 
@@ -17,5 +18,10 @@ public class Score : MonoBehaviour {
         score += icaruscontroller.rightVelocity * Time.deltaTime;
         GetComponent<Text>().text = "SCORE : " + score.ToString("N1") + " m";
 	}
+
+    public void ScorePlus()
+    {
+        score += bonuspoint;
+    }
 
 }
