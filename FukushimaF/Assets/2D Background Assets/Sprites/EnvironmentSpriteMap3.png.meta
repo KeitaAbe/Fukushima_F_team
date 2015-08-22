@@ -1,6 +1,23 @@
 fileFormatVersion: 2
 guid: fa6c720a918d4034382b2a9bc813f29e
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mountain_8
+    21300002: Mountain_7
+    21300004: Mountain_9
+    21300006: Mountain_10
+    21300008: Mountain_11
+    21300010: Mountain_12
+    21300012: Building_1
+    21300014: Building_3
+    21300016: Building_4
+    21300018: Building_2
+    21300020: Building_6
+    21300022: Building_5
+    21300024: Building_7
+    21300026: Road_2
+    21300028: Road_1
+    21300030: Road_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -19,6 +36,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -29,12 +49,14 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +72,7 @@ TextureImporter:
         height: 161
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mountain_7
       rect:
         serializedVersion: 2
@@ -59,6 +82,7 @@ TextureImporter:
         height: 77
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mountain_9
       rect:
         serializedVersion: 2
@@ -68,6 +92,7 @@ TextureImporter:
         height: 616
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mountain_10
       rect:
         serializedVersion: 2
@@ -77,6 +102,7 @@ TextureImporter:
         height: 349
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mountain_11
       rect:
         serializedVersion: 2
@@ -86,6 +112,7 @@ TextureImporter:
         height: 402
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mountain_12
       rect:
         serializedVersion: 2
@@ -95,6 +122,7 @@ TextureImporter:
         height: 419
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_1
       rect:
         serializedVersion: 2
@@ -104,6 +132,7 @@ TextureImporter:
         height: 366
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_3
       rect:
         serializedVersion: 2
@@ -113,6 +142,7 @@ TextureImporter:
         height: 250
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_4
       rect:
         serializedVersion: 2
@@ -122,6 +152,7 @@ TextureImporter:
         height: 526
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_2
       rect:
         serializedVersion: 2
@@ -131,6 +162,7 @@ TextureImporter:
         height: 554
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_6
       rect:
         serializedVersion: 2
@@ -140,6 +172,7 @@ TextureImporter:
         height: 564
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_5
       rect:
         serializedVersion: 2
@@ -149,6 +182,7 @@ TextureImporter:
         height: 601
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Building_7
       rect:
         serializedVersion: 2
@@ -158,6 +192,7 @@ TextureImporter:
         height: 408
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Road_2
       rect:
         serializedVersion: 2
@@ -167,6 +202,7 @@ TextureImporter:
         height: 352
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Road_1
       rect:
         serializedVersion: 2
@@ -176,6 +212,7 @@ TextureImporter:
         height: 108
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: Road_3
       rect:
         serializedVersion: 2
@@ -185,5 +222,8 @@ TextureImporter:
         height: 206
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

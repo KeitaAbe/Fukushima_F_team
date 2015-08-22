@@ -12,23 +12,30 @@ public class Spawn : MonoBehaviour
 	{
 		rand = Random.Range(0, 4) ;
 
+        GameObject gobj = null;
 		switch( rand )
 		{
 			case 0 :
-				Instantiate( obj[0], this.transform.position, Quaternion.identity ) ;
+                gobj = Instantiate<GameObject>(obj[0]);
 				break ;
 
 			case 1 :
-				Instantiate( obj[0], this.transform.position, Quaternion.identity ) ;
+                gobj = Instantiate<GameObject>(obj[0]);
 				break ;
 
 			case 2 :
-				Instantiate( obj[0], this.transform.position, Quaternion.identity ) ;
+                gobj = Instantiate<GameObject>(obj[0]);
 				break ;
 
 			case 3 :
-				Instantiate( obj[1], this.transform.position, Quaternion.identity ) ;
+                gobj = Instantiate<GameObject>(obj[1]);
 				break ;				
 		}
+
+        if (gobj != null)
+        {
+            gobj.transform.SetParent(transform.parent, false);
+            gobj.transform.position = transform.position;
+        }
 	}
 }

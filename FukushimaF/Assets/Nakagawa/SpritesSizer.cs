@@ -5,9 +5,14 @@ using System.Collections;
 public class SpritesSizer : MonoBehaviour {
 	public Vector2 designResolution;
 
+    void ApplyOthroSize()
+    {
+        Camera.main.orthographicSize = designResolution.y / 2f / 100f;
+    }
+
     void Awake()
     {
-		Camera.main.orthographicSize = designResolution.y / 2f / 100f;
+        ApplyOthroSize();
     }
 
 	// Use this for initialization
@@ -17,6 +22,6 @@ public class SpritesSizer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        ApplyOthroSize();
+    }
 }
