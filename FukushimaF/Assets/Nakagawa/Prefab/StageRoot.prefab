@@ -2353,10 +2353,10 @@ MonoBehaviour:
   waveSpawnLocator: {fileID: 489752}
   waveKillLocator: {fileID: 479702}
   wavePrefabs:
-  - {fileID: 123820, guid: 958d8e11e3907d9488deaf2041ec4570, type: 2}
-  - {fileID: 111404, guid: 7d34d71aa9a5de44d91e70f9ec2316ce, type: 2}
-  - {fileID: 105656, guid: 7e52dd16f1d4c124c959a6ec28e68ad8, type: 2}
-  - {fileID: 181550, guid: 6cd0648c34ee61b49920ca206f16ff3e, type: 2}
+  - {fileID: 123820, guid: a73118dc724d94dd6b03f2aed4263f6b, type: 2}
+  - {fileID: 111404, guid: 6f7426b3bd36b4bc99c95607f28a7f07, type: 2}
+  - {fileID: 105656, guid: 59f8ec382fc934369a1b4e1522504e75, type: 2}
+  - {fileID: 181550, guid: 8ebf68d4da234469cad09f7c23569cd6, type: 2}
   - {fileID: 157432, guid: 7f6f41721da344ed0ae571fe66054546, type: 2}
   - {fileID: 148152, guid: 02f5065180fb04690b7774e314e95fff, type: 2}
   - {fileID: 115042, guid: 933dbc840283545c5b4e4581d9b3ca02, type: 2}

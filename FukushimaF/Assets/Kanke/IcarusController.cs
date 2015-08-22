@@ -7,9 +7,13 @@ public partial class IcarusController : MonoBehaviour {
 	public float speedAngle;
 	private float angle = 0;
 	
+	private Script_SpriteStudio_PartsRoot spriteStudioRoot;
+	private bool isKilled;
+
 	void Start ()
 	{
-		
+		spriteStudioRoot = GetComponentInChildren<Script_SpriteStudio_PartsRoot>();
+		isKilled = false;
 	}
 
 	void Update ()
@@ -17,7 +21,8 @@ public partial class IcarusController : MonoBehaviour {
 
 		float input = Input.GetAxisRaw ("Vertical");
 		
-		angle += speedAngle * input * Time.deltaTime;
+		if( !isKilled )
+			angle += speedAngle * input * Time.deltaTime;
 
 		angle = Mathf.Max( -90f, Mathf.Min( 90f, angle ) );
 
@@ -31,9 +36,22 @@ public partial class IcarusController : MonoBehaviour {
 
 		transform.localEulerAngles = angles;
 		transform.position += verocity;
+		
+		/*
+		// TEST
+		if( Input.GetMouseButtonDown(0) ){
+			ChangeKilledAnimation();
+		}
+		*/
 	}
 
-    void OnTriggerEnter2D(Collider2D collider)
+	void ChangeKilledAnimation () {
+		isKilled = true;
+		angle = 0;
+		spriteStudioRoot.AnimationPlay( 2, 1 );	
+	}
+
+ 	void OnTriggerEnter2D(Collider2D collider)
     {
         Debug.Log(collider.gameObject.tag);
         Die(collider.gameObject.tag);
@@ -43,6 +61,7 @@ public partial class IcarusController : MonoBehaviour {
     void Die(string deadReasonTag)
     {
         Debug.Log("icarus die. -> "+deadReasonTag);
-        Application.LoadLevel("title");
+		ChangeKilledAnimation();	// Play Killed Animation...
+        //Application.LoadLevel("title");	// ...But oh can't see!
     }
 }
