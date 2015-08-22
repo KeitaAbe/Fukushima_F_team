@@ -25,14 +25,7 @@ public class charactorConroller : MonoBehaviour {
 			angle = -90;
 		}
 		Debug.Log(angle);
-
-
-	/*	if(speed < 0){
-			speed = 0.1f;
-		}*/
-		//角度の絶対値が大きければスピードは遅い
-
-
+		
 		Vector2 direction = new Vector2(0, y);
 
 		GetComponent<Rigidbody2D>().rotation = angle;
