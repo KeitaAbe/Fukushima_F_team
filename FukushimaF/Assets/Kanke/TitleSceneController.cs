@@ -45,7 +45,7 @@ public class TitleSceneController : MonoBehaviour {
 		br0.material.SetTextureOffset("_MainTex", new Vector2( scBottom0U, 0));
 		br1.material.SetTextureOffset("_MainTex", new Vector2( scBottom1U, 0));
 		
-		if( !isTouched && Input.GetMouseButtonDown(0) ) {
+		if( !isTouched && ( Input.GetMouseButtonDown(0) || Input.GetKeyDown("space")  ) ) {
 			isTouched = true;
 			se.GetComponent<AudioSource>().Play();
 		}
