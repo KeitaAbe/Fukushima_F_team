@@ -1,0 +1,1493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ee304ba437a9b4c8c4ce066c2160ec, type: 3}
+  m_Name: titleLogo
+  m_EditorClassIdentifier: 
+  ListInformationAnimation:
+  - Name: loop
+    FrameStart: 0
+    FrameEnd: 31
+    FramePerSecond: 30
+    Label: []
+  ListNodeAnimationData:
+  - ID: 0
+    KindBlendTarget: 0
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 20000000
+      _values:
+      - {x: -12, y: 0, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 
+      _values: []
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 
+      _values: []
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 
+      ArrayDataBodyCell: []
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 
+        _values: []
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 1
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: -217.902344, y: -5.91699839, z: 0}
+      - {x: -217.902344, y: -4.58789778, z: 0}
+      - {x: -217.902344, y: -3.45863032, z: 0}
+      - {x: -217.902344, y: -2.73049808, z: 0}
+      - {x: -217.902344, y: -2.25214624, z: 0}
+      - {x: -217.902344, y: -1.9863162, z: 0}
+      - {x: -217.902344, y: -1.96162295, z: 0}
+      - {x: -217.902344, y: -2.1169312, z: 0}
+      - {x: -217.902344, y: -2.42981267, z: 0}
+      - {x: -217.902344, y: -2.87783837, z: 0}
+      - {x: -217.902344, y: -3.43857956, z: 0}
+      - {x: -217.902344, y: -4.01350975, z: 0}
+      - {x: -217.902344, y: -4.72596359, z: 0}
+      - {x: -217.902344, y: -5.48633862, z: 0}
+      - {x: -217.902344, y: -6.1843257, z: 0}
+      - {x: -217.902344, y: -6.9740243, z: 0}
+      - {x: -217.902344, y: -7.66251087, z: 0}
+      - {x: -217.902344, y: -8.32191372, z: 0}
+      - {x: -217.902344, y: -8.93647957, z: 0}
+      - {x: -217.902344, y: -9.49045658, z: 0}
+      - {x: -217.902344, y: -9.96809196, z: 0}
+      - {x: -217.902344, y: -10.3536339, z: 0}
+      - {x: -217.902344, y: -10.603054, z: 0}
+      - {x: -217.902344, y: -10.7734613, z: 0}
+      - {x: -217.902344, y: -10.806488, z: 0}
+      - {x: -217.902344, y: -10.7103052, z: 0}
+      - {x: -217.902344, y: -10.4863272, z: 0}
+      - {x: -217.902344, y: -10.0603285, z: 0}
+      - {x: -217.902344, y: -9.52696514, z: 0}
+      - {x: -217.902344, y: -8.83263874, z: 0}
+      - {x: -217.902344, y: -7.96679688, z: 0}
+      - {x: -217.902344, y: -7.08013487, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 0
+          y: 16
+          width: 48
+          height: 96
+        Pivot: {x: 24, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -24, y: 48, z: 0}
+          - {x: 24, y: 48, z: 0}
+          - {x: 24, y: -48, z: 0}
+          - {x: -24, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: 0, y: .875}
+          - {x: .09375, y: .875}
+          - {x: .09375, y: .125}
+          - {x: 0, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 2
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: -166.902344, y: -5.67579746, z: 0}
+      - {x: -166.902344, y: -4.18728828, z: 0}
+      - {x: -166.902344, y: -3.22139692, z: 0}
+      - {x: -166.902344, y: -2.77468014, z: 0}
+      - {x: -166.902344, y: -2.62197232, z: 0}
+      - {x: -166.902344, y: -2.6805985, z: 0}
+      - {x: -166.902344, y: -2.92656636, z: 0}
+      - {x: -166.902344, y: -3.28308392, z: 0}
+      - {x: -166.902344, y: -3.75181818, z: 0}
+      - {x: -166.902344, y: -4.240767, z: 0}
+      - {x: -166.902344, y: -4.87449026, z: 0}
+      - {x: -166.902344, y: -5.48188782, z: 0}
+      - {x: -166.902344, y: -6.12682247, z: 0}
+      - {x: -166.902344, y: -6.89537382, z: 0}
+      - {x: -166.902344, y: -7.58273363, z: 0}
+      - {x: -166.902344, y: -8.2721529, z: 0}
+      - {x: -166.902344, y: -8.95234394, z: 0}
+      - {x: -166.902344, y: -9.61201763, z: 0}
+      - {x: -166.902344, y: -10.2398863, z: 0}
+      - {x: -166.902344, y: -10.8246613, z: 0}
+      - {x: -166.902344, y: -11.3550539, z: 0}
+      - {x: -166.902344, y: -11.8197765, z: 0}
+      - {x: -166.902344, y: -12.2559948, z: 0}
+      - {x: -166.902344, y: -12.5419836, z: 0}
+      - {x: -166.902344, y: -12.7443151, z: 0}
+      - {x: -166.902344, y: -12.7997351, z: 0}
+      - {x: -166.902344, y: -12.6852417, z: 0}
+      - {x: -166.902344, y: -12.3901377, z: 0}
+      - {x: -166.902344, y: -11.8188257, z: 0}
+      - {x: -166.902344, y: -10.971015, z: 0}
+      - {x: -166.902344, y: -9.67553139, z: 0}
+      - {x: -166.902344, y: -7.976161, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 48
+          y: 16
+          width: 64
+          height: 96
+        Pivot: {x: 32, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -32, y: 48, z: 0}
+          - {x: 32, y: 48, z: 0}
+          - {x: 32, y: -48, z: 0}
+          - {x: -32, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .09375, y: .875}
+          - {x: .21875, y: .875}
+          - {x: .21875, y: .125}
+          - {x: .09375, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 3
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: -113.902344, y: -6.91037798, z: 0}
+      - {x: -113.902344, y: -5.1678195, z: 0}
+      - {x: -113.902344, y: -3.94387341, z: 0}
+      - {x: -113.902344, y: -3.03526545, z: 0}
+      - {x: -113.902344, y: -2.46497154, z: 0}
+      - {x: -113.902344, y: -2.10883617, z: 0}
+      - {x: -113.902344, y: -1.95625663, z: 0}
+      - {x: -113.902344, y: -1.94371593, z: 0}
+      - {x: -113.902344, y: -2.05748558, z: 0}
+      - {x: -113.902344, y: -2.28383732, z: 0}
+      - {x: -113.902344, y: -2.5634551, z: 0}
+      - {x: -113.902344, y: -2.96389556, z: 0}
+      - {x: -113.902344, y: -3.37472558, z: 0}
+      - {x: -113.902344, y: -3.83233571, z: 0}
+      - {x: -113.902344, y: -4.40080261, z: 0}
+      - {x: -113.902344, y: -4.92768621, z: 0}
+      - {x: -113.902344, y: -5.47244549, z: 0}
+      - {x: -113.902344, y: -6.0258832, z: 0}
+      - {x: -113.902344, y: -6.57880211, z: 0}
+      - {x: -113.902344, y: -7.12200546, z: 0}
+      - {x: -113.902344, y: -7.71911526, z: 0}
+      - {x: -113.902344, y: -8.21053028, z: 0}
+      - {x: -113.902344, y: -8.72432137, z: 0}
+      - {x: -113.902344, y: -9.12171745, z: 0}
+      - {x: -113.902344, y: -9.50392628, z: 0}
+      - {x: -113.902344, y: -9.79622269, z: 0}
+      - {x: -113.902344, y: -9.98487949, z: 0}
+      - {x: -113.902344, y: -10.0561419, z: 0}
+      - {x: -113.902344, y: -9.95931244, z: 0}
+      - {x: -113.902344, y: -9.67484474, z: 0}
+      - {x: -113.902344, y: -9.11492538, z: 0}
+      - {x: -113.902344, y: -8.17158222, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 112
+          y: 16
+          width: 48
+          height: 96
+        Pivot: {x: 24, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -24, y: 48, z: 0}
+          - {x: 24, y: 48, z: 0}
+          - {x: 24, y: -48, z: 0}
+          - {x: -24, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .21875, y: .875}
+          - {x: .3125, y: .875}
+          - {x: .3125, y: .125}
+          - {x: .21875, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 4
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: -50.9023438, y: -2.9191885, z: 0}
+      - {x: -50.9023438, y: -.725055635, z: 0}
+      - {x: -50.9023438, y: .28744784, z: 0}
+      - {x: -50.9023438, y: .748546243, z: 0}
+      - {x: -50.9023438, y: .889833629, z: 0}
+      - {x: -50.9023438, y: .795788527, z: 0}
+      - {x: -50.9023438, y: .536833644, z: 0}
+      - {x: -50.9023438, y: .186099321, z: 0}
+      - {x: -50.9023438, y: -.261905372, z: 0}
+      - {x: -50.9023438, y: -.79163754, z: 0}
+      - {x: -50.9023438, y: -1.38755417, z: 0}
+      - {x: -50.9023438, y: -1.95105457, z: 0}
+      - {x: -50.9023438, y: -2.54291487, z: 0}
+      - {x: -50.9023438, y: -3.1527226, z: 0}
+      - {x: -50.9023438, y: -3.77006531, z: 0}
+      - {x: -50.9023438, y: -4.38453054, z: 0}
+      - {x: -50.9023438, y: -4.98570538, z: 0}
+      - {x: -50.9023438, y: -5.56317759, z: 0}
+      - {x: -50.9023438, y: -6.10653448, z: 0}
+      - {x: -50.9023438, y: -6.60536385, z: 0}
+      - {x: -50.9023438, y: -7.04925251, z: 0}
+      - {x: -50.9023438, y: -7.42778873, z: 0}
+      - {x: -50.9023438, y: -7.73055935, z: 0}
+      - {x: -50.9023438, y: -7.94715214, z: 0}
+      - {x: -50.9023438, y: -8.06715488, z: 0}
+      - {x: -50.9023438, y: -8.08015442, z: 0}
+      - {x: -50.9023438, y: -7.97573805, z: 0}
+      - {x: -50.9023438, y: -7.69927406, z: 0}
+      - {x: -50.9023438, y: -7.24030828, z: 0}
+      - {x: -50.9023438, y: -6.58329773, z: 0}
+      - {x: -50.9023438, y: -5.58808231, z: 0}
+      - {x: -50.9023438, y: -4.45861864, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 160
+          y: 16
+          width: 64
+          height: 96
+        Pivot: {x: 32, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -32, y: 48, z: 0}
+          - {x: 32, y: 48, z: 0}
+          - {x: 32, y: -48, z: 0}
+          - {x: -32, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .3125, y: .875}
+          - {x: .4375, y: .875}
+          - {x: .4375, y: .125}
+          - {x: .3125, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 5
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: 8.09765625, y: -5.93666649, z: 0}
+      - {x: 8.09765625, y: -3.8720994, z: 0}
+      - {x: 8.09765625, y: -3.21944952, z: 0}
+      - {x: 8.09765625, y: -3.01537061, z: 0}
+      - {x: 8.09765625, y: -3.03600049, z: 0}
+      - {x: 8.09765625, y: -3.20178342, z: 0}
+      - {x: 8.09765625, y: -3.45144606, z: 0}
+      - {x: 8.09765625, y: -3.78450799, z: 0}
+      - {x: 8.09765625, y: -4.13462687, z: 0}
+      - {x: 8.09765625, y: -4.59072542, z: 0}
+      - {x: 8.09765625, y: -5.02947903, z: 0}
+      - {x: 8.09765625, y: -5.42842531, z: 0}
+      - {x: 8.09765625, y: -5.9132185, z: 0}
+      - {x: 8.09765625, y: -6.41096687, z: 0}
+      - {x: 8.09765625, y: -6.84163761, z: 0}
+      - {x: 8.09765625, y: -7.34146118, z: 0}
+      - {x: 8.09765625, y: -7.76166391, z: 0}
+      - {x: 8.09765625, y: -8.16877365, z: 0}
+      - {x: 8.09765625, y: -8.62022495, z: 0}
+      - {x: 8.09765625, y: -8.98106575, z: 0}
+      - {x: 8.09765625, y: -9.36424828, z: 0}
+      - {x: 8.09765625, y: -9.65432549, z: 0}
+      - {x: 8.09765625, y: -9.94066238, z: 0}
+      - {x: 8.09765625, y: -10.1630144, z: 0}
+      - {x: 8.09765625, y: -10.313096, z: 0}
+      - {x: 8.09765625, y: -10.3826218, z: 0}
+      - {x: 8.09765625, y: -10.363306, z: 0}
+      - {x: 8.09765625, y: -10.2218161, z: 0}
+      - {x: 8.09765625, y: -9.94109726, z: 0}
+      - {x: 8.09765625, y: -9.44346619, z: 0}
+      - {x: 8.09765625, y: -8.64409828, z: 0}
+      - {x: 8.09765625, y: -7.5619626, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 224
+          y: 16
+          width: 64
+          height: 96
+        Pivot: {x: 32, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -32, y: 48, z: 0}
+          - {x: 32, y: 48, z: 0}
+          - {x: 32, y: -48, z: 0}
+          - {x: -32, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .4375, y: .875}
+          - {x: .5625, y: .875}
+          - {x: .5625, y: .125}
+          - {x: .4375, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 6
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: 68.0976562, y: 3.04722595, z: 0}
+      - {x: 68.0976562, y: 4.41947269, z: 0}
+      - {x: 68.0976562, y: 4.6558795, z: 0}
+      - {x: 68.0976562, y: 4.53078032, z: 0}
+      - {x: 68.0976562, y: 4.23060656, z: 0}
+      - {x: 68.0976562, y: 3.83170176, z: 0}
+      - {x: 68.0976562, y: 3.33096814, z: 0}
+      - {x: 68.0976562, y: 2.81608701, z: 0}
+      - {x: 68.0976562, y: 2.24973607, z: 0}
+      - {x: 68.0976562, y: 1.7226814, z: 0}
+      - {x: 68.0976562, y: 1.09659219, z: 0}
+      - {x: 68.0976562, y: .53824842, z: 0}
+      - {x: 68.0976562, y: -.0203363858, z: 0}
+      - {x: 68.0976562, y: -.492387861, z: 0}
+      - {x: 68.0976562, y: -1.02717471, z: 0}
+      - {x: 68.0976562, y: -1.53609216, z: 0}
+      - {x: 68.0976562, y: -1.94478989, z: 0}
+      - {x: 68.0976562, y: -2.3814187, z: 0}
+      - {x: 68.0976562, y: -2.71464658, z: 0}
+      - {x: 68.0976562, y: -3.04746771, z: 0}
+      - {x: 68.0976562, y: -3.27820945, z: 0}
+      - {x: 68.0976562, y: -3.47570372, z: 0}
+      - {x: 68.0976562, y: -3.58727479, z: 0}
+      - {x: 68.0976562, y: -3.60759187, z: 0}
+      - {x: 68.0976562, y: -3.53534555, z: 0}
+      - {x: 68.0976562, y: -3.3510654, z: 0}
+      - {x: 68.0976562, y: -3.04561281, z: 0}
+      - {x: 68.0976562, y: -2.53642654, z: 0}
+      - {x: 68.0976562, y: -1.84339666, z: 0}
+      - {x: 68.0976562, y: -.952881873, z: 0}
+      - {x: 68.0976562, y: .148759216, z: 0}
+      - {x: 68.0976562, y: 1.65745246, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 288
+          y: 16
+          width: 56
+          height: 96
+        Pivot: {x: 28, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -28, y: 48, z: 0}
+          - {x: 28, y: 48, z: 0}
+          - {x: 28, y: -48, z: 0}
+          - {x: -28, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .5625, y: .875}
+          - {x: .671875, y: .875}
+          - {x: .671875, y: .125}
+          - {x: .5625, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 7
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: 128.097656, y: -2.89654469, z: 0}
+      - {x: 128.097656, y: -1.38738644, z: 0}
+      - {x: 128.097656, y: -.00398295838, z: 0}
+      - {x: 128.097656, y: .964508235, z: 0}
+      - {x: 128.097656, y: 1.62381339, z: 0}
+      - {x: 128.097656, y: 2.11911798, z: 0}
+      - {x: 128.097656, y: 2.49854565, z: 0}
+      - {x: 128.097656, y: 2.67964911, z: 0}
+      - {x: 128.097656, y: 2.73158622, z: 0}
+      - {x: 128.097656, y: 2.68144703, z: 0}
+      - {x: 128.097656, y: 2.52258635, z: 0}
+      - {x: 128.097656, y: 2.30826735, z: 0}
+      - {x: 128.097656, y: 1.97682774, z: 0}
+      - {x: 128.097656, y: 1.63092589, z: 0}
+      - {x: 128.097656, y: 1.1650387, z: 0}
+      - {x: 128.097656, y: .720238209, z: 0}
+      - {x: 128.097656, y: .15803504, z: 0}
+      - {x: 128.097656, y: -.352979958, z: 0}
+      - {x: 128.097656, y: -.97336781, z: 0}
+      - {x: 128.097656, y: -1.60929155, z: 0}
+      - {x: 128.097656, y: -2.24969554, z: 0}
+      - {x: 128.097656, y: -2.88352394, z: 0}
+      - {x: 128.097656, y: -3.49972057, z: 0}
+      - {x: 128.097656, y: -4.16817331, z: 0}
+      - {x: 128.097656, y: -4.70935869, z: 0}
+      - {x: 128.097656, y: -5.3266573, z: 0}
+      - {x: 128.097656, y: -5.78368235, z: 0}
+      - {x: 128.097656, y: -6.20750809, z: 0}
+      - {x: 128.097656, y: -6.43740988, z: 0}
+      - {x: 128.097656, y: -6.41192818, z: 0}
+      - {x: 128.097656, y: -5.89628696, z: 0}
+      - {x: 128.097656, y: -3.68912721, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 344
+          y: 16
+          width: 56
+          height: 96
+        Pivot: {x: 28, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -28, y: 48, z: 0}
+          - {x: 28, y: 48, z: 0}
+          - {x: 28, y: -48, z: 0}
+          - {x: -28, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .671875, y: .875}
+          - {x: .78125, y: .875}
+          - {x: .78125, y: .125}
+          - {x: .671875, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 8
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: 180.097656, y: 5.0538578, z: 0}
+      - {x: 180.097656, y: 5.99165869, z: 0}
+      - {x: 180.097656, y: 6.620821, z: 0}
+      - {x: 180.097656, y: 7.06288671, z: 0}
+      - {x: 180.097656, y: 7.33372164, z: 0}
+      - {x: 180.097656, y: 7.44919062, z: 0}
+      - {x: 180.097656, y: 7.43422556, z: 0}
+      - {x: 180.097656, y: 7.32018089, z: 0}
+      - {x: 180.097656, y: 7.1182003, z: 0}
+      - {x: 180.097656, y: 6.83942556, z: 0}
+      - {x: 180.097656, y: 6.54126263, z: 0}
+      - {x: 180.097656, y: 6.14853382, z: 0}
+      - {x: 180.097656, y: 5.76779985, z: 0}
+      - {x: 180.097656, y: 5.30029058, z: 0}
+      - {x: 180.097656, y: 4.87126255, z: 0}
+      - {x: 180.097656, y: 4.43142796, z: 0}
+      - {x: 180.097656, y: 3.92510295, z: 0}
+      - {x: 180.097656, y: 3.48724794, z: 0}
+      - {x: 180.097656, y: 3.00277233, z: 0}
+      - {x: 180.097656, y: 2.60117435, z: 0}
+      - {x: 180.097656, y: 2.17772245, z: 0}
+      - {x: 180.097656, y: 1.84665871, z: 0}
+      - {x: 180.097656, y: 1.52340484, z: 0}
+      - {x: 180.097656, y: 1.26960766, z: 0}
+      - {x: 180.097656, y: 1.09641016, z: 0}
+      - {x: 180.097656, y: 1.01495516, z: 0}
+      - {x: 180.097656, y: 1.03638554, z: 0}
+      - {x: 180.097656, y: 1.19734919, z: 0}
+      - {x: 180.097656, y: 1.51849556, z: 0}
+      - {x: 180.097656, y: 2.08249021, z: 0}
+      - {x: 180.097656, y: 2.88559151, z: 0}
+      - {x: 180.097656, y: 3.9495635, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 400
+          y: 16
+          width: 48
+          height: 96
+        Pivot: {x: 24, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -24, y: 48, z: 0}
+          - {x: 24, y: 48, z: 0}
+          - {x: 24, y: -48, z: 0}
+          - {x: -24, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .78125, y: .875}
+          - {x: .875, y: .875}
+          - {x: .875, y: .125}
+          - {x: .78125, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 9
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+      _values:
+      - {x: 233.097656, y: -7.91627598, z: 0}
+      - {x: 233.097656, y: -6.19973183, z: 0}
+      - {x: 233.097656, y: -5.17283297, z: 0}
+      - {x: 233.097656, y: -4.47927237, z: 0}
+      - {x: 233.097656, y: -4.08761311, z: 0}
+      - {x: 233.097656, y: -3.97053051, z: 0}
+      - {x: 233.097656, y: -4.02568007, z: 0}
+      - {x: 233.097656, y: -4.22299194, z: 0}
+      - {x: 233.097656, y: -4.49692631, z: 0}
+      - {x: 233.097656, y: -4.91128969, z: 0}
+      - {x: 233.097656, y: -5.41827679, z: 0}
+      - {x: 233.097656, y: -5.92521858, z: 0}
+      - {x: 233.097656, y: -6.47997093, z: 0}
+      - {x: 233.097656, y: -7.07175064, z: 0}
+      - {x: 233.097656, y: -7.6897769, z: 0}
+      - {x: 233.097656, y: -8.32326603, z: 0}
+      - {x: 233.097656, y: -8.96143627, z: 0}
+      - {x: 233.097656, y: -9.59350491, z: 0}
+      - {x: 233.097656, y: -10.2086906, z: 0}
+      - {x: 233.097656, y: -10.8772535, z: 0}
+      - {x: 233.097656, y: -11.4199524, z: 0}
+      - {x: 233.097656, y: -11.9118795, z: 0}
+      - {x: 233.097656, y: -12.3422527, z: 0}
+      - {x: 233.097656, y: -12.7449064, z: 0}
+      - {x: 233.097656, y: -13.0369854, z: 0}
+      - {x: 233.097656, y: -13.2023945, z: 0}
+      - {x: 233.097656, y: -13.2250404, z: 0}
+      - {x: 233.097656, y: -13.0888281, z: 0}
+      - {x: 233.097656, y: -12.7256622, z: 0}
+      - {x: 233.097656, y: -12.0345755, z: 0}
+      - {x: 233.097656, y: -11.010397, z: 0}
+      - {x: 233.097656, y: -9.46156025, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 20000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 20000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 448
+          y: 16
+          width: 64
+          height: 96
+        Pivot: {x: 32, y: 48}
+        SizeOriginal: {x: 512, y: 128}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 20000000
+        _values:
+        - Coordinate:
+          - {x: -32, y: 48, z: 0}
+          - {x: 32, y: 48, z: 0}
+          - {x: 32, y: -48, z: 0}
+          - {x: -32, y: -48, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .875, y: .875}
+          - {x: 1, y: .875}
+          - {x: 1, y: .125}
+          - {x: .875, y: .125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
