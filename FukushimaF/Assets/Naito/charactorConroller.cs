@@ -4,7 +4,7 @@ using System.Collections;
 public class charactorConroller : MonoBehaviour {
 	
 	private float angle = 0;
-	protected float speed = 9;
+	protected float speed = 1;
 	private float y = 0;
 	
 	void Update ()
@@ -25,7 +25,7 @@ public class charactorConroller : MonoBehaviour {
 			angle = -90;
 		}
 		Debug.Log(angle);
-		speed = -(Mathf.Abs(angle) - 90) / 50;
+
 
 	/*	if(speed < 0){
 			speed = 0.1f;
