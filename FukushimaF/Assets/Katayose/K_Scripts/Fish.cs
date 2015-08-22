@@ -21,7 +21,7 @@ public class Fish : MonoBehaviour
 		}
 
 		float pos = this.transform.position.y ;
-		if( pos <= 6.5f )
+		if( pos <= -6.5f )
 		{
 			Destroy(this.gameObject) ;
 		}

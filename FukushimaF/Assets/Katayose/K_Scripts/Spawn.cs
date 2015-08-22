@@ -6,7 +6,7 @@ public class Spawn : MonoBehaviour
 	// : 発射オブジェクト.
 	public GameObject[] obj ;
 
-	private int rand ;
+	public int rand ;
 
 	void Start ()
 	{
@@ -20,15 +20,15 @@ public class Spawn : MonoBehaviour
 				break ;
 
 			case 1 :
-                gobj = Instantiate<GameObject>(obj[0]);
-				break ;
-
-			case 2 :
                 gobj = Instantiate<GameObject>(obj[1]);
 				break ;
 
-			case 3 :
+			case 2 :
                 gobj = Instantiate<GameObject>(obj[2]);
+				break ;
+
+			case 3 :
+                gobj = Instantiate<GameObject>(obj[0]);
 				break ;				
 		}
 
