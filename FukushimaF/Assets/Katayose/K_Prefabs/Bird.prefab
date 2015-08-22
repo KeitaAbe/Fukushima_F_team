@@ -11,6 +11,7 @@ GameObject:
   - 114: {fileID: 11484306}
   - 212: {fileID: 21201656}
   - 58: {fileID: 5817340}
+  - 114: {fileID: 11495276}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -55,6 +56,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icarus: {fileID: 0}
+--- !u!114 &11495276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ef833642fce4654bcc6e22e4ecb27b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  bird:
+  - {fileID: 21300000, guid: 551e22585d4dc413397054824eb14a1b, type: 3}
+  - {fileID: 21300000, guid: c21b8cb772fc9481eaa1e962184425ec, type: 3}
 --- !u!212 &21201656
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -89,6 +105,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: bird.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -96,6 +116,20 @@ Prefab:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 551e22585d4dc413397054824eb14a1b,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: bird.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 551e22585d4dc413397054824eb14a1b,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: bird.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c21b8cb772fc9481eaa1e962184425ec,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

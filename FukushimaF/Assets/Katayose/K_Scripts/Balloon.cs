@@ -20,17 +20,8 @@ public class Balloon : MonoBehaviour
 	void Update ()
 	{
 		obj_Pos.y += speed ;
-		obj_Pos.x += b_Speed ;
+		obj_Pos.x -= b_Speed ;
 		this.transform.position = obj_Pos ;
-
-		if( obj_Pos.x >= 1.0f )
-		{
-			b_Speed *= -1 ;
-		}
-		if( obj_Pos.x <= -1.0f )
-		{
-			b_Speed *= -1 ;
-		}
 
 		float pos = this.transform.position.y ;
 		if( pos >= 6.5f )

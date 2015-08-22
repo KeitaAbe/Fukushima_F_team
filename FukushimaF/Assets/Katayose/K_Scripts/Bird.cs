@@ -9,22 +9,40 @@ public class Bird : MonoBehaviour
 	private float   time  ;
 	public  float 	speed ;
 
+	public Sprite[] bird ;
+	private int count = 0 ;
 
 	void Start ()
 	{
 		// : ポジションの取得.
-		obj_Pos = this.transform.position ;
+		//obj_Pos = this.transform.position ;
 		time = 0.0f ;
 	}
 
 	void Update ()
 	{
-		runEnemy() ;
-
+		//runEnemy() ;
 		float pos = this.transform.position.x ;
 		if( pos <= -9.5f )
 		{
 			Destroy(this.gameObject) ;
+		}
+
+		time += Time.deltaTime ;
+		if( time >= 0.5f )
+		{
+			time = 0.0f ;
+
+			this.GetComponent<SpriteRenderer>().sprite = bird[count] ;
+
+			if( count == 0 )
+			{
+				count = 1 ;
+			}
+			else if( count == 1 )
+			{
+				count = 0 ;
+			}
 		}
 	}
 
