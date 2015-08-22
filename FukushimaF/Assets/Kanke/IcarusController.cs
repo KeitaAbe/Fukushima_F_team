@@ -39,7 +39,7 @@ public partial class IcarusController : MonoBehaviour {
                     _deadTimer += Time.smoothDeltaTime;
                     if (_deadTimer > 2f)
                     {
-                        Application.LoadLevel("title");
+                        Application.LoadLevel("Title");
                     }
                 }
                 break;
