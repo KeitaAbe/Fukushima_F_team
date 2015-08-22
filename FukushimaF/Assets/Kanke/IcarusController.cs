@@ -10,6 +10,14 @@ public partial class IcarusController : MonoBehaviour {
 	private Script_SpriteStudio_PartsRoot spriteStudioRoot;
 	private bool isKilled;
 
+    enum State
+    {
+        Move,
+        Dead,
+    }
+    State _status = State.Move;
+    float _deadTimer = 0f;
+
 	void Start ()
 	{
 		spriteStudioRoot = GetComponentInChildren<Script_SpriteStudio_PartsRoot>();
@@ -18,37 +26,59 @@ public partial class IcarusController : MonoBehaviour {
 
 	void Update ()
 	{
+        switch (_status)
+        {
+            case State.Move:
+                {
+                    Update_Move();
+                }
+                break;
 
-		float input = Input.GetAxisRaw ("Vertical");
-		
-		if( !isKilled )
-			angle += speedAngle * input * Time.deltaTime;
-
-		angle = Mathf.Max( -90f, Mathf.Min( 90f, angle ) );
-
-		Vector3 verocity = new Vector3(
-			speed * Mathf.Cos( angle * Mathf.Deg2Rad ) * 0f,
-			speed * Mathf.Sin( angle * Mathf.Deg2Rad ),
-			0f
-		);
-		
-		Vector3 angles = new Vector3( 0f, 0f, angle );
-
-		transform.localEulerAngles = angles;
-		transform.position += verocity;
-		
-		/*
-		// TEST
-		if( Input.GetMouseButtonDown(0) ){
-			ChangeKilledAnimation();
-		}
-		*/
+            case State.Dead:
+                {
+                    _deadTimer += Time.smoothDeltaTime;
+                    if (_deadTimer > 2f)
+                    {
+                        Application.LoadLevel("title");
+                    }
+                }
+                break;
+        }
 	}
+
+    void Update_Move()
+    {
+        float input = Input.GetAxisRaw("Vertical");
+
+        if (!isKilled)
+            angle += speedAngle * input * Time.deltaTime;
+
+        angle = Mathf.Max(-90f, Mathf.Min(90f, angle));
+
+        Vector3 verocity = new Vector3(
+            speed * Mathf.Cos(angle * Mathf.Deg2Rad) * 0f,
+            speed * Mathf.Sin(angle * Mathf.Deg2Rad),
+            0f
+        );
+
+        Vector3 angles = new Vector3(0f, 0f, angle);
+
+        transform.localEulerAngles = angles;
+        transform.position += verocity;
+
+        /*
+        // TEST
+        if( Input.GetMouseButtonDown(0) ){
+            ChangeKilledAnimation();
+        }
+        */
+    }
 
 	void ChangeKilledAnimation () {
 		isKilled = true;
 		angle = 0;
-		spriteStudioRoot.AnimationPlay( 2, 1 );	
+		spriteStudioRoot.AnimationPlay( 2, 1 );
+        Update_Move();
 	}
 
  	void OnTriggerEnter2D(Collider2D collider)
@@ -60,8 +90,13 @@ public partial class IcarusController : MonoBehaviour {
     //死亡開始
     void Die(string deadReasonTag)
     {
+        if (_status != State.Move)
+        {
+            return;
+        }
         Debug.Log("icarus die. -> "+deadReasonTag);
 		ChangeKilledAnimation();	// Play Killed Animation...
-        //Application.LoadLevel("title");	// ...But oh can't see!
+        speed = 0f;
+        _status = State.Dead;
     }
 }
