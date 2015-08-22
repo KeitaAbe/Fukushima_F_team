@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class charactorConroller : MonoBehaviour {
+public partial class charactorConroller : MonoBehaviour {
 	
 	private float angle = 0;
 	protected float speed = 0;
@@ -24,7 +24,7 @@ public class charactorConroller : MonoBehaviour {
 			angle = -90;
 		}
 
-		speed = Mathf.Abs(Mathf.Cos(angle));
+        speed = Mathf.Abs(Mathf.Sin(Mathf.Deg2Rad * angle));
 		if(angle >= 90 || angle <= -90){
 			speed = 0;
 		}

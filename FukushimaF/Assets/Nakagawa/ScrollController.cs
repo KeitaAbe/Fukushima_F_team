@@ -69,6 +69,16 @@ public class ScrollController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        //Playerからスクロール値を取得
+        var playerGObj = GameObject.FindGameObjectWithTag("Player");
+        if(playerGObj!=null){
+            var ccon = playerGObj.GetComponent<charactorConroller>();
+            if(ccon!=null){
+                _scrollSpeed = ccon.rightVelocity * -1f;
+            }
+        }
+
+        //ScrollNodeのEndLocator到着チェック
         foreach (var node in _nodeList)
         {
             if (node.transform.position.x < scrollEndLocator.position.x)

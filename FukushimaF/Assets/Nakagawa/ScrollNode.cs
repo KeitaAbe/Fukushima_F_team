@@ -18,8 +18,13 @@ public class ScrollNode : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(ScrollController.instance==null){
+            return;
+        }
+        //自身の初期設定されたScroll速度と、Playerの移動を加味したScrollSpeedで構成
+        var speed = (_scrollSpeed * 0.5f) + (ScrollController.instance.scrollSpeed * 0.5f);
         var newPos = transform.localPosition;
-        newPos.x += _scrollSpeed * Time.smoothDeltaTime;
+        newPos.x += speed * Time.smoothDeltaTime;
         transform.localPosition = newPos;
 	}
 
