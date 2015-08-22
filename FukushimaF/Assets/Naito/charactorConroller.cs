@@ -15,7 +15,7 @@ public class charactorConroller : MonoBehaviour {
 		if(input != 0){
 			y = input;
 			angle += y;
-			Debug.Log(y);
+            //Debug.Log(y);
 		}
 
 		if(angle >= 90){
@@ -24,8 +24,9 @@ public class charactorConroller : MonoBehaviour {
 		else if(angle <= -90){
 			angle = -90;
 		}
-		Debug.Log(angle);
-		speed = -(Mathf.Abs(angle) - 90) / 50;
+        //Debug.Log(angle);
+        //speed = -(Mathf.Abs(angle) - 90) / 50;
+        speed = Time.smoothDeltaTime;
 
 	/*	if(speed < 0){
 			speed = 0.1f;
@@ -35,7 +36,15 @@ public class charactorConroller : MonoBehaviour {
 
 		Vector2 direction = new Vector2(0, y);
 
-		GetComponent<Rigidbody2D>().rotation = angle;
-		GetComponent<Rigidbody2D>().velocity = speed * direction;
-	}
+        //GetComponent<Rigidbody2D>().rotation = angle;
+        //GetComponent<Rigidbody2D>().velocity = speed * direction;
+        //GetComponent<Rigidbody2D>().velocity = speed * (angle > 0f ? Vector3.up : Vector3.down);
+
+        var newPos = transform.position;
+        newPos.y += speed * (angle > 0f ? 1 : -1);
+        transform.position = newPos;
+
+        var quat = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = quat;
+    }
 }
