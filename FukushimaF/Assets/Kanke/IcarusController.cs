@@ -43,5 +43,6 @@ public partial class IcarusController : MonoBehaviour {
     void Die(string deadReasonTag)
     {
         Debug.Log("icarus die. -> "+deadReasonTag);
+        Application.LoadLevel("title");
     }
 }
