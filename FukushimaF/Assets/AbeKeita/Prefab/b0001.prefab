@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21296098}
   - 95: {fileID: 9503768}
   m_Layer: 0
-  m_Name: a0001R
+  m_Name: ArmR1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,6 +26,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 452376}
   - 212: {fileID: 21298922}
+  - 114: {fileID: 11435354}
   m_Layer: 0
   m_Name: b0001
   m_TagString: Untagged
@@ -44,7 +45,7 @@ GameObject:
   - 212: {fileID: 21272856}
   - 95: {fileID: 9512454}
   m_Layer: 0
-  m_Name: a0001L
+  m_Name: ArmL1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,6 +123,31 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11435354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b82d3a5b5cf54468ee2e93e51858d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childR: {fileID: 146440}
+  childL: {fileID: 184864}
+  body_sprite:
+  - {fileID: 21300000, guid: e2c97572ae62f8b41a25461bbee3c891, type: 3}
+  - {fileID: 21300000, guid: 70dfff9e4dab3714f86097a1b6374375, type: 3}
+  - {fileID: 21300000, guid: 4e5dae88cb93c3244921a09532771a73, type: 3}
+  - {fileID: 21300000, guid: f8b9a15be08a655488ddc8203dc5c88f, type: 3}
+  - {fileID: 21300000, guid: 01ed6c50cad4062458ff77b455245e41, type: 3}
+  arm_sprite:
+  - {fileID: 21300000, guid: 18d230896413cbe469a5bfb0b8c6be95, type: 3}
+  - {fileID: 21300000, guid: 1a14bfbdf3129294293e1a440f6827c8, type: 3}
+  - {fileID: 21300000, guid: 8c2c3c0920256ef4392f77a20aa15df2, type: 3}
+  - {fileID: 21300000, guid: 44da71b431e3333438d9d17e9d8587e0, type: 3}
+  - {fileID: 21300000, guid: cd0fe96e976c2eb488b9c3e8b354e55b, type: 3}
 --- !u!212 &21272856
 SpriteRenderer:
   m_ObjectHideFlags: 1
