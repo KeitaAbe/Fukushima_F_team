@@ -19,9 +19,12 @@ public partial class IcarusController : MonoBehaviour {
 
     void OnGUI()
     {
+        GUILayout.BeginVertical();
+        GUILayout.Space(40);
         GUILayout.Label("Chara Angle:" + angle);
         GUILayout.Label("Chara Speed:" + speed);
         GUILayout.Label("Chara rightVel:" + rightVelocity);
         GUILayout.Label("Chara rightVelRate:" + rightVelocityRate);
+        GUILayout.EndVertical();
     }
 }
