@@ -28,9 +28,6 @@ public class charactorConroller : MonoBehaviour {
 		if(angle >= 90 || angle <= -90){
 			speed = 0;
 		}
-		Debug.Log("angle" + angle);
-		Debug.Log("speed" + speed);
-		Debug.Log("y" + y);
 		
 		Vector2 direction = new Vector2(0, y);
 
