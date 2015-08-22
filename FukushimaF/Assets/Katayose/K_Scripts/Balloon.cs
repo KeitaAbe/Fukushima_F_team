@@ -31,5 +31,11 @@ public class Balloon : MonoBehaviour
 		{
 			b_Speed *= -1 ;
 		}
+
+		float pos = this.transform.position.y ;
+		if( pos >= 6.5f )
+		{
+			Destroy(this.gameObject) ;
+		}
 	}
 }
