@@ -72,9 +72,9 @@ public class ScrollController : MonoBehaviour {
         //Playerからスクロール値を取得
         var playerGObj = GameObject.FindGameObjectWithTag("Player");
         if(playerGObj!=null){
-            var ccon = playerGObj.GetComponent<charactorConroller>();
+            var ccon = playerGObj.GetComponent<IcarusController>();
             if(ccon!=null){
-                _scrollSpeed = ccon.rightVelocity * -1f;
+                _scrollSpeed = ccon.rightVelocityRate * -1f;
             }
         }
 
