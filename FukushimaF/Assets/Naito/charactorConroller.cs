@@ -4,7 +4,7 @@ using System.Collections;
 public class charactorConroller : MonoBehaviour {
 	
 	private float angle = 0;
-	protected float speed = 1;
+	protected float speed = 0;
 	private float y = 0;
 	
 	void Update ()
@@ -15,7 +15,6 @@ public class charactorConroller : MonoBehaviour {
 		if(input != 0){
 			y = input;
 			angle += y;
-			Debug.Log(y);
 		}
 
 		if(angle >= 90){
@@ -24,7 +23,14 @@ public class charactorConroller : MonoBehaviour {
 		else if(angle <= -90){
 			angle = -90;
 		}
-		Debug.Log(angle);
+
+		speed = Mathf.Abs(Mathf.Cos(angle));
+		if(angle >= 90 || angle <= -90){
+			speed = 0;
+		}
+		Debug.Log("angle" + angle);
+		Debug.Log("speed" + speed);
+		Debug.Log("y" + y);
 		
 		Vector2 direction = new Vector2(0, y);
 
