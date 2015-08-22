@@ -31,5 +31,17 @@ public partial class IcarusController : MonoBehaviour {
 
 		transform.localEulerAngles = angles;
 		transform.position += verocity;
-	}	
+	}
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        Debug.Log(collider.gameObject.tag);
+        Die(collider.gameObject.tag);
+    }
+
+    //死亡開始
+    void Die(string deadReasonTag)
+    {
+        Debug.Log("icarus die. -> "+deadReasonTag);
+    }
 }
