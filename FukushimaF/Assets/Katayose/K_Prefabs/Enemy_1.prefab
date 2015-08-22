@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 462074}
   - 33: {fileID: 3395482}
   - 23: {fileID: 2320028}
-  - 114: {fileID: 11484306}
   m_Layer: 0
   m_Name: Enemy_1
   m_TagString: Untagged
@@ -61,18 +60,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116330}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &11484306
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 116330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3deeb0a66baee4e59892a77b509b0034, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icarus: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
