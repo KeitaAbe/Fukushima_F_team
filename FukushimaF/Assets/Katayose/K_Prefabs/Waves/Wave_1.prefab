@@ -244,6 +244,7 @@ MonoBehaviour:
   obj:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  rand: 0
 --- !u!114 &11487758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -258,6 +259,7 @@ MonoBehaviour:
   obj:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  rand: 0
 --- !u!114 &11496390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -272,6 +274,7 @@ MonoBehaviour:
   obj:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  rand: 0
 --- !u!212 &21232044
 SpriteRenderer:
   m_ObjectHideFlags: 1

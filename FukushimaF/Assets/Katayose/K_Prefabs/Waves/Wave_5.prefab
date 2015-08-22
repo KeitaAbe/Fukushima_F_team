@@ -246,6 +246,7 @@ MonoBehaviour:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  rand: 0
 --- !u!114 &11413048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -261,6 +262,7 @@ MonoBehaviour:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  rand: 0
 --- !u!114 &11438060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,6 +278,7 @@ MonoBehaviour:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  rand: 0
 --- !u!212 &21207050
 SpriteRenderer:
   m_ObjectHideFlags: 1
