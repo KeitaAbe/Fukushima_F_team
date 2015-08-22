@@ -15,7 +15,7 @@ public class charactorConroller : MonoBehaviour {
 		if(input != 0){
 			y = input;
 			angle += y;
-			Debug.Log(y);
+            //Debug.Log(y);
 		}
 
 		if(angle >= 90){
@@ -24,11 +24,14 @@ public class charactorConroller : MonoBehaviour {
 		else if(angle <= -90){
 			angle = -90;
 		}
-		Debug.Log(angle);
+        //Debug.Log(angle);
 		
 		Vector2 direction = new Vector2(0, y);
 
-		GetComponent<Rigidbody2D>().rotation = angle;
-		GetComponent<Rigidbody2D>().velocity = speed * direction;
+        var rigidbody = GetComponent<Rigidbody2D>();
+        if(rigidbody!=null){
+            rigidbody.rotation = angle;
+            rigidbody.velocity = speed * direction;
+        }
 	}
 }
