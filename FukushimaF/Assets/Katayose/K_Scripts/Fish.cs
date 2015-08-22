@@ -19,11 +19,5 @@ public class Fish : MonoBehaviour
 
 			jumpFlag = false ;
 		}
-
-		float pos = transform.position.y ;
-		if( pos <= -6.5f )
-		{
-			Destroy(this.gameObject) ;
-		}
 	}
 }

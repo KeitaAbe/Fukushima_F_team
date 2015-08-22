@@ -3,31 +3,39 @@ using System.Collections;
 
 public class SpriteManager : MonoBehaviour {
 
-    private int i;
+    private int random;
+    public GameObject childR;
+    public GameObject childL;
 
     [SerializeField]
-    Sprite[] m_sprite = new Sprite[3*2];
+    Sprite[] body_sprite = new Sprite[5];
+    [SerializeField]
+    Sprite[] arm_sprite = new Sprite[5];
 
-    // Update is called once per frame
-    void Update()
+    // Use this for initialization
+    void Start()
     {
-        if (i++ % 20 == 0)
-        {
-            SetNumber(Random.Range(0, 3));
-        }
+        random = Random.Range(0, 5);
+        SetNumber(random);      // 作成されたときにランダムで決定
+        SetNumberChild(random);
     }
 
     //数字の設定
     public void SetNumber(int num)
     {
         SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
-        sr.sprite = m_sprite[num];
+        sr.sprite = body_sprite[num];
     }
 
-    public void SetNumberChildRight(int numchildRight)
+    public void SetNumberChild(int numchild)
     {
+        //childR = transform.FindChild("ArmR1").gameObject;
+        //childL = transform.FindChild("ArmL1").gameObject;
 
-        SpriteRenderer srchild = gameObject.GetComponentInChildren<SpriteRenderer>();
-        srchild.sprite = m_sprite[numchildRight + 3];
+        SpriteRenderer childr = childR.GetComponent<SpriteRenderer>();
+        SpriteRenderer childl = childL.GetComponent<SpriteRenderer>();
+
+        childr.sprite = arm_sprite[numchild];
+        childl.sprite = arm_sprite[numchild];
     }
 }

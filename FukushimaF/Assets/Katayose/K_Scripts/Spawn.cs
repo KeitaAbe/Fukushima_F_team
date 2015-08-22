@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
 
 	void Start ()
 	{
-		rand = Random.Range(0, obj.Length +1) ;
+		rand = Random.Range(0, 4) ;
 
         GameObject gobj = null;
 		switch( rand )
@@ -24,11 +24,11 @@ public class Spawn : MonoBehaviour
 				break ;
 
 			case 2 :
-                gobj = Instantiate<GameObject>(obj[1]);
+                gobj = Instantiate<GameObject>(obj[0]);
 				break ;
 
 			case 3 :
-                gobj = Instantiate<GameObject>(obj[2]);
+                gobj = Instantiate<GameObject>(obj[1]);
 				break ;				
 		}
 

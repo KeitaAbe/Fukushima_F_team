@@ -20,12 +20,6 @@ public class Bird : MonoBehaviour
 	void Update ()
 	{
 		runEnemy() ;
-
-		float pos = transform.position.x ;
-		if( pos <= -10.0f )
-		{
-			Destroy(this.gameObject) ;
-		}
 	}
 
 
