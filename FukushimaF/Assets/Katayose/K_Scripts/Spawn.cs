@@ -24,11 +24,11 @@ public class Spawn : MonoBehaviour
 				break ;
 
 			case 2 :
-                gobj = Instantiate<GameObject>(obj[0]);
+                gobj = Instantiate<GameObject>(obj[1]);
 				break ;
 
 			case 3 :
-                gobj = Instantiate<GameObject>(obj[1]);
+                gobj = Instantiate<GameObject>(obj[2]);
 				break ;				
 		}
 
