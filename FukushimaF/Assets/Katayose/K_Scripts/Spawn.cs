@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
 
 	void Start ()
 	{
-		rand = Random.Range(0, 4) ;
+		rand = Random.Range(0, obj.Length +1) ;
 
         GameObject gobj = null;
 		switch( rand )
