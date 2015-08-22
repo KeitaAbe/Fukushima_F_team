@@ -14,6 +14,9 @@ public class Fish : MonoBehaviour
 		{
 			GetComponent<Rigidbody2D>().AddForce(Vector2.up   * thrust_UP) ;
 			GetComponent<Rigidbody2D>().AddForce(Vector2.left * thrust_LEFT) ;
+			
+			//float angle = Mathf.Atan2( thrust_UP, thrust_LEFT ) * Mathf.Rad2Deg;
+
 			jumpFlag = false ;
 		}
 	}
