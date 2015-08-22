@@ -20,10 +20,12 @@ public class DistansHit : MonoBehaviour
 
 		if( !icarus )
 		{
-			icarus = GameObject.Find("Quad") ;
-
-			ica_Pos = icarus.transform.position ;
-			ica_RD = icarus.transform.localScale.x / 2 ;
+            icarus = GameObject.FindGameObjectWithTag("Player");
+            if (icarus != null)
+            {
+                ica_Pos = icarus.transform.position;
+                ica_RD = icarus.transform.localScale.x / 2;
+            }
 		}
 	}
 	
@@ -33,7 +35,7 @@ public class DistansHit : MonoBehaviour
 
 		if( difference >= 3.0f )
 		{
-			Debug.Log("d") ;
+            //Debug.Log("d") ;
 		}
 	}
 }
