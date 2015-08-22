@@ -1,0 +1,38 @@
+タイトル画面
+　BGM：タイトルバック
+　TITLE_BACK.mp3
+　SE：決定音
+　KETTEI_ON.mp3
+
+メイン画面
+　BGM：メインBGM
+　Main_BGM.mp3
+
+イカロス君
+　SE：羽音
+　Icarus_Haneoto.mp3
+　SE：衝突音
+　Icarus_shototsu,mp3
+　SE：落下音
+　Icarus_Rakka.mp3
+
+サカナ
+　SE：水音
+　Fish_mizuoto.mp3
+
+タカ
+　SE：画面出現音
+　Falcon_Haneoto
+
+ボーナスキャラゲット
+　SE：ボーナスキャラ獲得音
+　Bonus_Chara_GET.mp3
+
+リザルト画面
+　JINGLE:ゲームオーバー
+　Game_Over_Jingle.mp3
+　JINGLE：ランキング更新
+　Rank_In.mp3
+　SE：決定音
+　KETTEI_ON.mp3
+
