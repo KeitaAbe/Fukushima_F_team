@@ -1,0 +1,3756 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ee304ba437a9b4c8c4ce066c2160ec, type: 3}
+  m_Name: icarus
+  m_EditorClassIdentifier: 
+  ListInformationAnimation:
+  - Name: flatter
+    FrameStart: 0
+    FrameEnd: 19
+    FramePerSecond: 30
+    Label: []
+  - Name: flatter2
+    FrameStart: 30
+    FrameEnd: 41
+    FramePerSecond: 30
+    Label: []
+  - Name: killed
+    FrameStart: 60
+    FrameEnd: 89
+    FramePerSecond: 30
+    Label: []
+  ListNodeAnimationData:
+  - ID: 0
+    KindBlendTarget: 0
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 
+      _values: []
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 
+      _values: []
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 
+      _values: []
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 
+      ArrayDataBodyCell: []
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 
+        _values: []
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 1
+    KindBlendTarget: 0
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    - Flag: 1073807359
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a000000
+      _values:
+      - {x: 0, y: -.0247184988, z: 0}
+      - {x: 0, y: -.417903602, z: 0}
+      - {x: 0, y: -.772765815, z: 0}
+      - {x: 0, y: -1.01679456, z: 0}
+      - {x: 0, y: -1.12817049, z: 0}
+      - {x: 0, y: -1.11901021, z: 0}
+      - {x: 0, y: -.968446791, z: 0}
+      - {x: 0, y: -.699875712, z: 0}
+      - {x: 0, y: -.321044207, z: 0}
+      - {x: 0, y: .141410843, z: 0}
+      - {x: 0, y: .617857099, z: 0}
+      - {x: 0, y: 1.05956733, z: 0}
+      - {x: 0, y: 1.39992392, z: 0}
+      - {x: 0, y: 1.61573553, z: 0}
+      - {x: 0, y: 1.6967901, z: 0}
+      - {x: 0, y: 1.64362299, z: 0}
+      - {x: 0, y: 1.46543443, z: 0}
+      - {x: 0, y: 1.17815566, z: 0}
+      - {x: 0, y: .758725226, z: 0}
+      - {x: 0, y: .308036506, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: -.0247184988, z: 0}
+      - {x: 0, y: -.45571202, z: 0}
+      - {x: 0, y: -.823376596, z: 0}
+      - {x: 0, y: -1.07833874, z: 0}
+      - {x: 0, y: -1.11331511, z: 0}
+      - {x: 0, y: -.496014297, z: 0}
+      - {x: 0, y: 1.3239876, z: 0}
+      - {x: 0, y: 1.6967901, z: 0}
+      - {x: 0, y: 1.55589974, z: 0}
+      - {x: 0, y: 1.20953441, z: 0}
+      - {x: 0, y: .802663207, z: 0}
+      - {x: 0, y: .308036506, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 1.3212254, z: 0}
+      - {x: 0, y: 26.5209122, z: 0}
+      - {x: 0, y: 44.5004578, z: 0}
+      - {x: 0, y: 55.5211029, z: 0}
+      - {x: 0, y: 59.7209778, z: 0}
+      - {x: 0, y: 58.930439, z: 0}
+      - {x: 0, y: 53.9584045, z: 0}
+      - {x: 0, y: 44.9479561, z: 0}
+      - {x: 0, y: 33.6640701, z: 0}
+      - {x: 0, y: 17.4158993, z: 0}
+      - {x: 0, y: -.0746293068, z: 0}
+      - {x: 0, y: -20.3289127, z: 0}
+      - {x: 0, y: -43.2464561, z: 0}
+      - {x: 0, y: -68.7267685, z: 0}
+      - {x: 0, y: -96.6693649, z: 0}
+      - {x: 0, y: -126.973747, z: 0}
+      - {x: 0, y: -155.34848, z: 0}
+      - {x: 0, y: -189.810349, z: 0}
+      - {x: 0, y: -226.345108, z: 0}
+      - {x: 0, y: -264.852234, z: 0}
+      - {x: 0, y: -305.231232, z: 0}
+      - {x: 0, y: -347.381653, z: 0}
+      - {x: 0, y: -396.793121, z: 0}
+      - {x: 0, y: -442.374084, z: 0}
+      - {x: 0, y: -495.389679, z: 0}
+      - {x: 0, y: -550.106628, z: 0}
+      - {x: 0, y: -606.381958, z: 0}
+      - {x: 0, y: -664.072449, z: 0}
+      - {x: 0, y: -729.658813, z: 0}
+      - {x: 0, y: -796.619385, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 3d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 60}
+      - {x: 0, y: 0, z: 120}
+      - {x: 0, y: 0, z: 180}
+      - {x: 0, y: 0, z: 240}
+      - {x: 0, y: 0, z: 300}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 47.1428604}
+      - {x: 0, y: 0, z: 94.2857208}
+      - {x: 0, y: 0, z: 141.428574}
+      - {x: 0, y: 0, z: 188.571442}
+      - {x: 0, y: 0, z: 235.714294}
+      - {x: 0, y: 0, z: 282.857147}
+      - {x: 0, y: 0, z: 330}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 38.3333321}
+      - {x: 0, y: 0, z: 76.6666641}
+      - {x: 0, y: 0, z: 115}
+      - {x: 0, y: 0, z: 153.333328}
+      - {x: 0, y: 0, z: 191.666672}
+      - {x: 0, y: 0, z: 230}
+      - {x: 0, y: 0, z: 268.333344}
+      - {x: 0, y: 0, z: 306.666656}
+      - {x: 0, y: 0, z: 345}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 42.4000015}
+      - {x: 0, y: 0, z: 84.8000031}
+      - {x: 0, y: 0, z: 127.200005}
+      - {x: 0, y: 0, z: 169.600006}
+      - {x: 0, y: 0, z: 212}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 
+      ArrayDataBodyCell: []
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 
+        _values: []
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 2
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: -1, y: -14, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: -1, y: -14, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: -1, y: -14, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 5a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 71
+          y: 37
+          width: 33
+          height: 25
+        Pivot: {x: 17, y: 12}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 71
+          y: 37
+          width: 33
+          height: 25
+        Pivot: {x: 17, y: 12}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 71
+          y: 37
+          width: 33
+          height: 25
+        Pivot: {x: 17, y: 12}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -17, y: 12, z: 0}
+          - {x: 16, y: 12, z: 0}
+          - {x: 16, y: -13, z: 0}
+          - {x: -17, y: -13, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .27734375, y: .85546875}
+          - {x: .40625, y: .85546875}
+          - {x: .40625, y: .7578125}
+          - {x: .27734375, y: .7578125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -17, y: 12, z: 0}
+          - {x: 16, y: 12, z: 0}
+          - {x: 16, y: -13, z: 0}
+          - {x: -17, y: -13, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .27734375, y: .85546875}
+          - {x: .40625, y: .85546875}
+          - {x: .40625, y: .7578125}
+          - {x: .27734375, y: .7578125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -17, y: 12, z: 0}
+          - {x: 16, y: 12, z: 0}
+          - {x: 16, y: -13, z: 0}
+          - {x: -17, y: -13, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .27734375, y: .85546875}
+          - {x: .40625, y: .85546875}
+          - {x: .40625, y: .7578125}
+          - {x: .27734375, y: .7578125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 3
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 10, y: 12, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 10, y: 12, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 10, y: 12, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000005a000000
+      _values:
+      - {x: 0, y: 0, z: .0465949774}
+      - {x: 0, y: 0, z: 1.36864936}
+      - {x: 0, y: 0, z: 2.04272699}
+      - {x: 0, y: 0, z: 2.24268055}
+      - {x: 0, y: 0, z: 2.14878321}
+      - {x: 0, y: 0, z: 1.861251}
+      - {x: 0, y: 0, z: 1.4194783}
+      - {x: 0, y: 0, z: .907403827}
+      - {x: 0, y: 0, z: .325703502}
+      - {x: 0, y: 0, z: -.295959592}
+      - {x: 0, y: 0, z: -.927922368}
+      - {x: 0, y: 0, z: -1.54052174}
+      - {x: 0, y: 0, z: -2.10409451}
+      - {x: 0, y: 0, z: -2.58897781}
+      - {x: 0, y: 0, z: -2.96550846}
+      - {x: 0, y: 0, z: -3.20402336}
+      - {x: 0, y: 0, z: -3.272264}
+      - {x: 0, y: 0, z: -3.08241653}
+      - {x: 0, y: 0, z: -2.5236907}
+      - {x: 0, y: 0, z: -1.54074705}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: .0465949774}
+      - {x: 0, y: 0, z: 1.52563584}
+      - {x: 0, y: 0, z: 2.21329403}
+      - {x: 0, y: 0, z: 2.03764534}
+      - {x: 0, y: 0, z: 1.13093197}
+      - {x: 0, y: 0, z: -.190832734}
+      - {x: 0, y: 0, z: -1.54052174}
+      - {x: 0, y: 0, z: -2.6249032}
+      - {x: 0, y: 0, z: -3.20402336}
+      - {x: 0, y: 0, z: -3.20010328}
+      - {x: 0, y: 0, z: -2.62143326}
+      - {x: 0, y: 0, z: -1.54074705}
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - 5
+      - 0
+      - 5
+      - 0
+      - 5
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 4
+          width: 31
+          height: 31
+        Pivot: {x: 11, y: 21}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 4
+          width: 31
+          height: 31
+        Pivot: {x: 11, y: 21}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 4
+          width: 31
+          height: 31
+        Pivot: {x: 11, y: 21}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -11, y: 21, z: 0}
+          - {x: 20, y: 21, z: 0}
+          - {x: 20, y: -10, z: 0}
+          - {x: -11, y: -10, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .6484375, y: .984375}
+          - {x: .76953125, y: .984375}
+          - {x: .76953125, y: .86328125}
+          - {x: .6484375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -11, y: 21, z: 0}
+          - {x: 20, y: 21, z: 0}
+          - {x: 20, y: -10, z: 0}
+          - {x: -11, y: -10, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .6484375, y: .984375}
+          - {x: .76953125, y: .984375}
+          - {x: .76953125, y: .86328125}
+          - {x: .6484375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -11, y: 21, z: 0}
+          - {x: 20, y: 21, z: 0}
+          - {x: 20, y: -10, z: 0}
+          - {x: -11, y: -10, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .6484375, y: .984375}
+          - {x: .76953125, y: .984375}
+          - {x: .76953125, y: .86328125}
+          - {x: .6484375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 4
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 3, y: 11, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 3, y: 11, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 3, y: 11, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 5a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - 6
+      - 0
+      - 6
+      - 0
+      - 6
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 71
+          y: 4
+          width: 37
+          height: 31
+        Pivot: {x: 18.5, y: 15.5}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 71
+          y: 4
+          width: 37
+          height: 31
+        Pivot: {x: 18.5, y: 15.5}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 71
+          y: 4
+          width: 37
+          height: 31
+        Pivot: {x: 18.5, y: 15.5}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -18.5, y: 15.5, z: 0}
+          - {x: 18.5, y: 15.5, z: 0}
+          - {x: 18.5, y: -15.5, z: 0}
+          - {x: -18.5, y: -15.5, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .27734375, y: .984375}
+          - {x: .421875, y: .984375}
+          - {x: .421875, y: .86328125}
+          - {x: .27734375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -18.5, y: 15.5, z: 0}
+          - {x: 18.5, y: 15.5, z: 0}
+          - {x: 18.5, y: -15.5, z: 0}
+          - {x: -18.5, y: -15.5, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .27734375, y: .984375}
+          - {x: .421875, y: .984375}
+          - {x: .421875, y: .86328125}
+          - {x: .27734375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -18.5, y: 15.5, z: 0}
+          - {x: 18.5, y: 15.5, z: 0}
+          - {x: 18.5, y: -15.5, z: 0}
+          - {x: -18.5, y: -15.5, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .27734375, y: .984375}
+          - {x: .421875, y: .984375}
+          - {x: .421875, y: .86328125}
+          - {x: .27734375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 5
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: -6, y: -3, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: -6, y: -3, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: -6, y: -3, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000005a000000
+      _values:
+      - {x: 0, y: 0, z: .0356830806}
+      - {x: 0, y: 0, z: .719741106}
+      - {x: 0, y: 0, z: 1.25932682}
+      - {x: 0, y: 0, z: 1.6044637}
+      - {x: 0, y: 0, z: 1.7769531}
+      - {x: 0, y: 0, z: 1.79427397}
+      - {x: 0, y: 0, z: 1.64673495}
+      - {x: 0, y: 0, z: 1.3849355}
+      - {x: 0, y: 0, z: .970619619}
+      - {x: 0, y: 0, z: .511282563}
+      - {x: 0, y: 0, z: .0172519498}
+      - {x: 0, y: 0, z: -.511233866}
+      - {x: 0, y: 0, z: -.997223973}
+      - {x: 0, y: 0, z: -1.37491071}
+      - {x: 0, y: 0, z: -1.65800273}
+      - {x: 0, y: 0, z: -1.77204478}
+      - {x: 0, y: 0, z: -1.71710944}
+      - {x: 0, y: 0, z: -1.45215654}
+      - {x: 0, y: 0, z: -.985514104}
+      - {x: 0, y: 0, z: -.341605514}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: .0356830806}
+      - {x: 0, y: 0, z: .719741106}
+      - {x: 0, y: 0, z: 1.32976425}
+      - {x: 0, y: 0, z: 1.72466564}
+      - {x: 0, y: 0, z: 1.76827657}
+      - {x: 0, y: 0, z: 1.20419824}
+      - {x: 0, y: 0, z: -.231954783}
+      - {x: 0, y: 0, z: -1.44287717}
+      - {x: 0, y: 0, z: -1.77418613}
+      - {x: 0, y: 0, z: -1.55156875}
+      - {x: 0, y: 0, z: -1.02960813}
+      - {x: 0, y: 0, z: -.341605514}
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - -8
+      - 0
+      - -8
+      - 0
+      - -8
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000020000000200000002000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 191
+          y: 37
+          width: 25
+          height: 17
+        Pivot: {x: 23, y: 2.99999976}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 191
+          y: 37
+          width: 25
+          height: 17
+        Pivot: {x: 23, y: 2.99999976}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 191
+          y: 37
+          width: 25
+          height: 17
+        Pivot: {x: 23, y: 2.99999976}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -23, y: 2.99999976, z: 0}
+          - {x: 2, y: 2.99999976, z: 0}
+          - {x: 2, y: -14, z: 0}
+          - {x: -23, y: -14, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .74609375, y: .85546875}
+          - {x: .84375, y: .85546875}
+          - {x: .84375, y: .7890625}
+          - {x: .74609375, y: .7890625}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -23, y: 2.99999976, z: 0}
+          - {x: 2, y: 2.99999976, z: 0}
+          - {x: 2, y: -14, z: 0}
+          - {x: -23, y: -14, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .74609375, y: .85546875}
+          - {x: .84375, y: .85546875}
+          - {x: .84375, y: .7890625}
+          - {x: .74609375, y: .7890625}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -23, y: 2.99999976, z: 0}
+          - {x: 2, y: 2.99999976, z: 0}
+          - {x: 2, y: -14, z: 0}
+          - {x: -23, y: -14, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .74609375, y: .85546875}
+          - {x: .84375, y: .85546875}
+          - {x: .84375, y: .7890625}
+          - {x: .74609375, y: .7890625}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 6
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 11, y: 6, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 11, y: 6, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 11, y: 6, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000003c0000005a000000
+      _values:
+      - {x: 0, y: 0, z: .000100255675}
+      - {x: 0, y: 0, z: 5.53048849}
+      - {x: 0, y: 0, z: 8.03909683}
+      - {x: 0, y: 0, z: 8.77138233}
+      - {x: 0, y: 0, z: 5.75036669}
+      - {x: 0, y: 0, z: -2.69643784}
+      - {x: 0, y: 0, z: -16.4827404}
+      - {x: 0, y: 0, z: -36.2143745}
+      - {x: 0, y: 0, z: -41.1690979}
+      - {x: 0, y: 0, z: -46.1238174}
+      - {x: 0, y: 0, z: -51.0785408}
+      - {x: 0, y: 0, z: -56.0332642}
+      - {x: 0, y: 0, z: -60.9879837}
+      - {x: 0, y: 0, z: -65.9427109}
+      - {x: 0, y: 0, z: -70.8974304}
+      - {x: 0, y: 0, z: -75.85215}
+      - {x: 0, y: 0, z: -80.8068695}
+      - {x: 0, y: 0, z: -85.7551727}
+      - {x: 0, y: 0, z: -68.4358139}
+      - {x: 0, y: 0, z: -18.6693687}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: .411321312}
+      - {x: 0, y: 0, z: 7.88252687}
+      - {x: 0, y: 0, z: 8.77138233}
+      - {x: 0, y: 0, z: 4.53969717}
+      - {x: 0, y: 0, z: -36.2143745}
+      - {x: 0, y: 0, z: -44.4722443}
+      - {x: 0, y: 0, z: -52.730114}
+      - {x: 0, y: 0, z: -60.9879837}
+      - {x: 0, y: 0, z: -69.2458572}
+      - {x: 0, y: 0, z: -77.5037231}
+      - {x: 0, y: 0, z: -85.7551727}
+      - {x: 0, y: 0, z: -18.6693687}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: -18.5752277}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000300000003000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 137
+          y: 4
+          width: 27
+          height: 37
+        Pivot: {x: 8, y: 34}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 17
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 137
+          y: 4
+          width: 27
+          height: 37
+        Pivot: {x: 8, y: 34}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 137
+          y: 4
+          width: 27
+          height: 37
+        Pivot: {x: 8, y: 34}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 40
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 137
+          y: 4
+          width: 27
+          height: 37
+        Pivot: {x: 8, y: 34}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 137
+          y: 4
+          width: 27
+          height: 37
+        Pivot: {x: 8, y: 34}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -8, y: 34, z: 0}
+          - {x: 19, y: 34, z: 0}
+          - {x: 19, y: -3, z: 0}
+          - {x: -8, y: -3, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .53515625, y: .984375}
+          - {x: .640625, y: .984375}
+          - {x: .640625, y: .83984375}
+          - {x: .53515625, y: .83984375}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -8, y: 34, z: 0}
+          - {x: 19, y: 34, z: 0}
+          - {x: 19, y: -3, z: 0}
+          - {x: -8, y: -3, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .53515625, y: .984375}
+          - {x: .640625, y: .984375}
+          - {x: .640625, y: .83984375}
+          - {x: .53515625, y: .83984375}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -8, y: 34, z: 0}
+          - {x: 19, y: 34, z: 0}
+          - {x: 19, y: -3, z: 0}
+          - {x: -8, y: -3, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .53515625, y: .984375}
+          - {x: .640625, y: .984375}
+          - {x: .640625, y: .83984375}
+          - {x: .53515625, y: .83984375}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 7
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 1, y: 11, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 1, y: 11, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 1, y: 11, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000003c0000005a000000
+      _values:
+      - {x: 0, y: 0, z: -.000160663141}
+      - {x: 0, y: 0, z: -8.38015556}
+      - {x: 0, y: 0, z: -12.6837988}
+      - {x: 0, y: 0, z: -14.0625963}
+      - {x: 0, y: 0, z: -10.1269331}
+      - {x: 0, y: 0, z: -.180634901}
+      - {x: 0, y: 0, z: 13.4407091}
+      - {x: 0, y: 0, z: 30.0323029}
+      - {x: 0, y: 0, z: 33.7011604}
+      - {x: 0, y: 0, z: 37.370018}
+      - {x: 0, y: 0, z: 41.0388756}
+      - {x: 0, y: 0, z: 44.7077293}
+      - {x: 0, y: 0, z: 48.3765869}
+      - {x: 0, y: 0, z: 52.0454445}
+      - {x: 0, y: 0, z: 55.7142982}
+      - {x: 0, y: 0, z: 59.3831596}
+      - {x: 0, y: 0, z: 63.0520134}
+      - {x: 0, y: 0, z: 66.7088242}
+      - {x: 0, y: 0, z: 53.6137733}
+      - {x: 0, y: 0, z: 19.2224655}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: -.000160663141}
+      - {x: 0, y: 0, z: -12.3616285}
+      - {x: 0, y: 0, z: -14.0625963}
+      - {x: 0, y: 0, z: -7.30042887}
+      - {x: 0, y: 0, z: 30.0323029}
+      - {x: 0, y: 0, z: 36.1470642}
+      - {x: 0, y: 0, z: 42.2618256}
+      - {x: 0, y: 0, z: 48.3765869}
+      - {x: 0, y: 0, z: 54.4913483}
+      - {x: 0, y: 0, z: 60.6061096}
+      - {x: 0, y: 0, z: 66.7088242}
+      - {x: 0, y: 0, z: 19.2224655}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 19.1343975}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000300000003000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 110
+          y: 4
+          width: 25
+          height: 41
+        Pivot: {x: 22, y: 35}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 17
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 110
+          y: 4
+          width: 25
+          height: 41
+        Pivot: {x: 22, y: 35}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 110
+          y: 4
+          width: 25
+          height: 41
+        Pivot: {x: 22, y: 35}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 40
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 110
+          y: 4
+          width: 25
+          height: 41
+        Pivot: {x: 22, y: 35}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 110
+          y: 4
+          width: 25
+          height: 41
+        Pivot: {x: 22, y: 35}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -22, y: 35, z: 0}
+          - {x: 3, y: 35, z: 0}
+          - {x: 3, y: -6, z: 0}
+          - {x: -22, y: -6, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .4296875, y: .984375}
+          - {x: .52734375, y: .984375}
+          - {x: .52734375, y: .82421875}
+          - {x: .4296875, y: .82421875}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -22, y: 35, z: 0}
+          - {x: 3, y: 35, z: 0}
+          - {x: 3, y: -6, z: 0}
+          - {x: -22, y: -6, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .4296875, y: .984375}
+          - {x: .52734375, y: .984375}
+          - {x: .52734375, y: .82421875}
+          - {x: .4296875, y: .82421875}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -22, y: 35, z: 0}
+          - {x: 3, y: 35, z: 0}
+          - {x: 3, y: -6, z: 0}
+          - {x: -22, y: -6, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .4296875, y: .984375}
+          - {x: .52734375, y: .984375}
+          - {x: .52734375, y: .82421875}
+          - {x: .4296875, y: .82421875}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 8
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 1, y: -1, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 1, y: -1, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 1, y: -1, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 5a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000300000003000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 4
+          width: 15
+          height: 21
+        Pivot: {x: 14, y: 16}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 17
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 4
+          width: 15
+          height: 21
+        Pivot: {x: 14, y: 16}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 4
+          width: 15
+          height: 21
+        Pivot: {x: 14, y: 16}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 40
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 4
+          width: 15
+          height: 21
+        Pivot: {x: 14, y: 16}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 4
+          width: 15
+          height: 21
+        Pivot: {x: 14, y: 16}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -14, y: 16, z: 0}
+          - {x: 1, y: 16, z: 0}
+          - {x: 1, y: -5, z: 0}
+          - {x: -14, y: -5, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .8984375, y: .984375}
+          - {x: .95703125, y: .984375}
+          - {x: .95703125, y: .90234375}
+          - {x: .8984375, y: .90234375}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -14, y: 16, z: 0}
+          - {x: 1, y: 16, z: 0}
+          - {x: 1, y: -5, z: 0}
+          - {x: -14, y: -5, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .8984375, y: .984375}
+          - {x: .95703125, y: .984375}
+          - {x: .95703125, y: .90234375}
+          - {x: .8984375, y: .90234375}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -14, y: 16, z: 0}
+          - {x: 1, y: 16, z: 0}
+          - {x: 1, y: -5, z: 0}
+          - {x: -14, y: -5, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .8984375, y: .984375}
+          - {x: .95703125, y: .984375}
+          - {x: .95703125, y: .90234375}
+          - {x: .8984375, y: .90234375}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 9
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 10, y: 9, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 10, y: 9, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 10, y: 9, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001f0000002000000021000000220000002300000024000000250000002600000027000000280000005a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 7.7383213}
+      - {x: 0, y: 0, z: 15.4766426}
+      - {x: 0, y: 0, z: 23.2149639}
+      - {x: 0, y: 0, z: 30.9532852}
+      - {x: 0, y: 0, z: 38.6916046}
+      - {x: 0, y: 0, z: 46.4299278}
+      - {x: 0, y: 0, z: 54.168251}
+      - {x: 0, y: 0, z: 61.9058647}
+      - {x: 0, y: 0, z: 30.7719193}
+      - {x: 0, y: 0, z: 12.677104}
+      - {x: 0, y: 0, z: 3.06995654}
+      - {x: 0, y: 0, z: -.0114760818}
+      - {x: 0, y: 0, z: .214865729}
+      - {x: 0, y: 0, z: 2.65084672}
+      - {x: 0, y: 0, z: 7.81211615}
+      - {x: 0, y: 0, z: 17.2310314}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: 12.3813143}
+      - {x: 0, y: 0, z: 24.7626286}
+      - {x: 0, y: 0, z: 37.1439438}
+      - {x: 0, y: 0, z: 49.5252571}
+      - {x: 0, y: 0, z: 30.046566}
+      - {x: 0, y: 0, z: 3.77934337}
+      - {x: 0, y: 0, z: -.0114760818}
+      - {x: 0, y: 0, z: .400595516}
+      - {x: 0, y: 0, z: 17.2310314}
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - -4
+      - 0
+      - -4
+      - 0
+      - -4
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000300000003000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 37
+          width: 23
+          height: 29
+        Pivot: {x: 9, y: 3}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 17
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 37
+          width: 23
+          height: 29
+        Pivot: {x: 9, y: 3}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 37
+          width: 23
+          height: 29
+        Pivot: {x: 9, y: 3}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 40
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 37
+          width: 23
+          height: 29
+        Pivot: {x: 9, y: 3}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 166
+          y: 37
+          width: 23
+          height: 29
+        Pivot: {x: 9, y: 3}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -9, y: 3, z: 0}
+          - {x: 14, y: 3, z: 0}
+          - {x: 14, y: -26, z: 0}
+          - {x: -9, y: -26, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .6484375, y: .85546875}
+          - {x: .73828125, y: .85546875}
+          - {x: .73828125, y: .7421875}
+          - {x: .6484375, y: .7421875}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -9, y: 3, z: 0}
+          - {x: 14, y: 3, z: 0}
+          - {x: 14, y: -26, z: 0}
+          - {x: -9, y: -26, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .6484375, y: .85546875}
+          - {x: .73828125, y: .85546875}
+          - {x: .73828125, y: .7421875}
+          - {x: .6484375, y: .7421875}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -9, y: 3, z: 0}
+          - {x: 14, y: 3, z: 0}
+          - {x: 14, y: -26, z: 0}
+          - {x: -9, y: -26, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .6484375, y: .85546875}
+          - {x: .73828125, y: .85546875}
+          - {x: .73828125, y: .7421875}
+          - {x: .6484375, y: .7421875}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 10
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 2, y: -6, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 2, y: -6, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 2, y: -6, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 5a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - -2
+      - 0
+      - -2
+      - 0
+      - -2
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000300000003000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 27
+          width: 11
+          height: 17
+        Pivot: {x: 5, y: .99999994}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 17
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 27
+          width: 11
+          height: 17
+        Pivot: {x: 5, y: .99999994}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 27
+          width: 11
+          height: 17
+        Pivot: {x: 5, y: .99999994}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 40
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 27
+          width: 11
+          height: 17
+        Pivot: {x: 5, y: .99999994}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 230
+          y: 27
+          width: 11
+          height: 17
+        Pivot: {x: 5, y: .99999994}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -5, y: .99999994, z: 0}
+          - {x: 6, y: .99999994, z: 0}
+          - {x: 6, y: -16, z: 0}
+          - {x: -5, y: -16, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .8984375, y: .89453125}
+          - {x: .94140625, y: .89453125}
+          - {x: .94140625, y: .828125}
+          - {x: .8984375, y: .828125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -5, y: .99999994, z: 0}
+          - {x: 6, y: .99999994, z: 0}
+          - {x: 6, y: -16, z: 0}
+          - {x: -5, y: -16, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .8984375, y: .89453125}
+          - {x: .94140625, y: .89453125}
+          - {x: .94140625, y: .828125}
+          - {x: .8984375, y: .828125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -5, y: .99999994, z: 0}
+          - {x: 6, y: .99999994, z: 0}
+          - {x: 6, y: -16, z: 0}
+          - {x: -5, y: -16, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .8984375, y: .89453125}
+          - {x: .94140625, y: .89453125}
+          - {x: .94140625, y: .828125}
+          - {x: .8984375, y: .828125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
+  - ID: 11
+    KindBlendTarget: 1
+    CollisionKind: 0
+    CollisionSizeZ: 0
+    AnimationDataFlags:
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073741824
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 131071
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    - Flag: 1073807360
+    AnimationDataPosition: []
+    CompressedAnimationDataPosition:
+      _indices: 140000001e0000002a0000003c0000005a000000
+      _values:
+      - {x: 0, y: 12, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 12, z: 0}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 12, z: 0}
+    AnimationDataRotation: []
+    CompressedAnimationDataRotation:
+      _indices: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001f0000002000000021000000220000002300000024000000250000002600000027000000280000005a000000
+      _values:
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: -6.89522505}
+      - {x: 0, y: 0, z: -13.7904501}
+      - {x: 0, y: 0, z: -20.6856747}
+      - {x: 0, y: 0, z: -27.5809002}
+      - {x: 0, y: 0, z: -34.4761238}
+      - {x: 0, y: 0, z: -41.3713493}
+      - {x: 0, y: 0, z: -48.2665749}
+      - {x: 0, y: 0, z: -55.161171}
+      - {x: 0, y: 0, z: -25.8348179}
+      - {x: 0, y: 0, z: -10.2801247}
+      - {x: 0, y: 0, z: -2.32218361}
+      - {x: 0, y: 0, z: -.000364160194}
+      - {x: 0, y: 0, z: -1.75844026}
+      - {x: 0, y: 0, z: -7.15051985}
+      - {x: 0, y: 0, z: -16.5844078}
+      - {x: 0, y: 0, z: -31.8622894}
+      - {x: 0, y: 0, z: 0}
+      - {x: 0, y: 0, z: -11.0323601}
+      - {x: 0, y: 0, z: -22.0647202}
+      - {x: 0, y: 0, z: -33.0970802}
+      - {x: 0, y: 0, z: -44.1294403}
+      - {x: 0, y: 0, z: -21.3599682}
+      - {x: 0, y: 0, z: -2.91218424}
+      - {x: 0, y: 0, z: -.000364160194}
+      - {x: 0, y: 0, z: -2.24049425}
+      - {x: 0, y: 0, z: -31.8622894}
+      - {x: 0, y: 0, z: 0}
+    AnimationDataScaling: []
+    CompressedAnimationDataScaling:
+      _indices: 
+      _values: []
+    AnimationDataOpacityRate: []
+    CompressedAnimationDataOpacityRate:
+      _indices: 5a000000
+      _values:
+      - 1
+    AnimationDataPriority: []
+    CompressedAnimationDataPriority:
+      _indices: 
+      _values: []
+    AnimationDataUser: 
+    AnimationDataInstance: 
+    ArrayDataBodyUser: []
+    ArrayDataBodyInstance: []
+    KindDataFormat: 1
+    DataPlain:
+      AnimationDataColorBlend: []
+      CompressedAnimationDataColorBlend:
+        _indices: 
+        _values: []
+      AnimationDataVertexCorrection: []
+      AnimationDataOriginOffset: []
+      AnimationDataAnchorPosition: []
+      AnimationDataAnchorSize: []
+      AnimationDataTextureTranslate: []
+      AnimationDataTextureRotate: []
+      AnimationDataTextureScale: []
+      AnimationDataTextureExpand: []
+      AnimationDataCollisionRadius: []
+      AnimationDataCell: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff020000000200000002000000020000000200000002000000020000000200000002000000020000000300000003000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000040000000400000004000000
+      ArrayDataBodyCell:
+      - FrameNoBase: 0
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 199
+          y: 4
+          width: 29
+          height: 31
+        Pivot: {x: 17, y: 2}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 17
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 199
+          y: 4
+          width: 29
+          height: 31
+        Pivot: {x: 17, y: 2}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 30
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 199
+          y: 4
+          width: 29
+          height: 31
+        Pivot: {x: 17, y: 2}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 40
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 199
+          y: 4
+          width: 29
+          height: 31
+        Pivot: {x: 17, y: 2}
+        SizeOriginal: {x: 256, y: 256}
+      - FrameNoBase: 60
+        TextureNo: 0
+        Rectangle:
+          serializedVersion: 2
+          x: 199
+          y: 4
+          width: 29
+          height: 31
+        Pivot: {x: 17, y: 2}
+        SizeOriginal: {x: 256, y: 256}
+    DataFix:
+      AnimationDataMesh: []
+      CompressedAnimationDataMesh:
+        _indices: 140000001e0000002a0000003c0000005a000000
+        _values:
+        - Coordinate:
+          - {x: -17, y: 2, z: 0}
+          - {x: 12, y: 2, z: 0}
+          - {x: 12, y: -29, z: 0}
+          - {x: -17, y: -29, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .77734375, y: .984375}
+          - {x: .890625, y: .984375}
+          - {x: .890625, y: .86328125}
+          - {x: .77734375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -17, y: 2, z: 0}
+          - {x: 12, y: 2, z: 0}
+          - {x: 12, y: -29, z: 0}
+          - {x: -17, y: -29, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .77734375, y: .984375}
+          - {x: .890625, y: .984375}
+          - {x: .890625, y: .86328125}
+          - {x: .77734375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+        - Coordinate:
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          - {x: 0, y: 0, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          - serializedVersion: 2
+            rgba: 0
+          UV:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          UV2:
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+          - {x: 0, y: 0}
+        - Coordinate:
+          - {x: -17, y: 2, z: 0}
+          - {x: 12, y: 2, z: 0}
+          - {x: 12, y: -29, z: 0}
+          - {x: -17, y: -29, z: 0}
+          ColorOverlay:
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          - serializedVersion: 2
+            rgba: 4294967295
+          UV:
+          - {x: .77734375, y: .984375}
+          - {x: .890625, y: .984375}
+          - {x: .890625, y: .86328125}
+          - {x: .77734375, y: .86328125}
+          UV2:
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+          - {x: 1, y: .00999999978}
+      AnimationDataCollisionSize: []
+      AnimationDataCollisionPivot: []
+      AnimationDataCollisionRadius: []
