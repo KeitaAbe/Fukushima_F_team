@@ -23,6 +23,8 @@ public class TitleSceneController : MonoBehaviour {
 	
 	private bool isTouched;
 
+	public GameObject se;
+
 	// Use this for initialization
 	void Start () {
 		scTopU = 0f;
@@ -45,6 +47,7 @@ public class TitleSceneController : MonoBehaviour {
 		
 		if( !isTouched && Input.GetMouseButtonDown(0) ) {
 			isTouched = true;
+			se.GetComponent<AudioSource>().Play();
 		}
 		
 		if( isTouched ) {
@@ -52,7 +55,7 @@ public class TitleSceneController : MonoBehaviour {
 			icaP = icaP + new Vector3( icaV * Time.deltaTime, 0f, 0f );
 			ica.transform.position = icaP;
 			if( icaP.x > icaMax )
-				Application.LoadLevel("");
+				Application.LoadLevel(1);
 		}
 	}
 	
