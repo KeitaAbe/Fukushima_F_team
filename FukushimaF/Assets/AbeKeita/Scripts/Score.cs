@@ -18,7 +18,7 @@ public class Score : MonoBehaviour {
         score += icaruscontroller.rightVelocity * Time.deltaTime;
         GetComponent<Text>().text = "SCORE : " + score.ToString("N1") + " m";
 	}
-
+    // ボーナスキャラを取得したとき関数
     public void ScorePlus()
     {
         score += bonuspoint;
