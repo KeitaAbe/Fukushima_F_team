@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 476966}
   - 212: {fileID: 21255384}
+  - 111: {fileID: 11176492}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -1415,6 +1416,21 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!111 &11176492
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114556}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 246eb6e052e06e64795ccd499434b7d6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &11406996
 MonoBehaviour:
   m_ObjectHideFlags: 1
