@@ -231,7 +231,7 @@ MonoBehaviour:
   obj:
   - {fileID: 190032, guid: 2f10057a2ef784b53a6cde0ed3b583ce, type: 2}
   - {fileID: 160864, guid: bbefb5e7762204df295f2e15fbb4902b, type: 2}
-  - {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
+  - {fileID: 160864, guid: bbefb5e7762204df295f2e15fbb4902b, type: 2}
   rand: 0
 --- !u!114 &11437534
 MonoBehaviour:
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj:
   - {fileID: 190032, guid: 2f10057a2ef784b53a6cde0ed3b583ce, type: 2}
-  - {fileID: 160864, guid: bbefb5e7762204df295f2e15fbb4902b, type: 2}
+  - {fileID: 190032, guid: 2f10057a2ef784b53a6cde0ed3b583ce, type: 2}
   - {fileID: 160864, guid: bbefb5e7762204df295f2e15fbb4902b, type: 2}
   rand: 0
 --- !u!114 &11449132
@@ -302,6 +302,14 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: obj.Array.data[2]
+      value: 
+      objectReference: {fileID: 160864, guid: bbefb5e7762204df295f2e15fbb4902b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: obj.Array.data[1]
+      value: 
+      objectReference: {fileID: 190032, guid: 2f10057a2ef784b53a6cde0ed3b583ce, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 148152}

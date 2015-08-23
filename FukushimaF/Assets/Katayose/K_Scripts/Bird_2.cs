@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bird : MonoBehaviour
+public class Bird_2 : MonoBehaviour
 {
 	// : objポジションの取得変数.
 	private Vector3 obj_Pos ;
@@ -57,7 +57,7 @@ public class Bird : MonoBehaviour
 		b_Time = Time.deltaTime ;
 		// : 経過時間に対応した移動・反映.
 		obj_Pos.x += b_Time * -speed_X ;
-		obj_Pos.x += b_Time * -speed_Y ;
+		obj_Pos.y += b_Time * -speed_Y ;
 		this.transform.position = obj_Pos ;	
 	}
 }

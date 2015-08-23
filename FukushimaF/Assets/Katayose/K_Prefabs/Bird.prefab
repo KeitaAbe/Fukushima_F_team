@@ -67,8 +67,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ef833642fce4654bcc6e22e4ecb27b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed_X: 10
-  speed_Y: 1.5
+  speed_X: 1
+  speed_Y: 3
   bird:
   - {fileID: 21300000, guid: 551e22585d4dc413397054824eb14a1b, type: 3}
   - {fileID: 21300000, guid: c21b8cb772fc9481eaa1e962184425ec, type: 3}
@@ -150,11 +150,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed_X
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed_Y
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
