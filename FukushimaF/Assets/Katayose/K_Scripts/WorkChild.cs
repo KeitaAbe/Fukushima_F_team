@@ -34,6 +34,7 @@ public class WorkChild : MonoBehaviour
 		if( coll.tag == "Player" )
 		{
 			isColl = true ;
+			sound.instance.CharaGet() ;
 		}
 	}
 }
