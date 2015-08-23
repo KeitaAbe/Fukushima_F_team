@@ -7,6 +7,7 @@ public class Bird : MonoBehaviour
 	private Vector3 obj_Pos ;
 	// : 時間の取得変数.
 	private float   time  ;
+	private float   b_Time ;
 	public  float 	speed ;
 
 	public Sprite[] bird ;
@@ -14,8 +15,9 @@ public class Bird : MonoBehaviour
 
 	void Start ()
 	{
-		// : ポジションの取得.
-		//obj_Pos = this.transform.position ;
+		obj_Pos = this.transform.position ;
+
+		b_Time = 0.0f ;
 		time = 0.0f ;
 	}
 
@@ -50,9 +52,9 @@ public class Bird : MonoBehaviour
 	public void runEnemy()
 	{
 		// : 時間の取得.
-		time += Time.deltaTime ;
+		b_Time = Time.deltaTime ;
 		// : 経過時間に対応した移動・反映.
-		obj_Pos.x += time * -speed ;
+		obj_Pos.x += b_Time * -speed ;
 		this.transform.position = obj_Pos ;	
 	}
 }
