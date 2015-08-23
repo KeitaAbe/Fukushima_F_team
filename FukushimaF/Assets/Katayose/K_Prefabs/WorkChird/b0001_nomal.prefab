@@ -11,6 +11,8 @@ GameObject:
   - 212: {fileID: 21220560}
   - 114: {fileID: 11475616}
   - 61: {fileID: 6175954}
+  - 95: {fileID: 9509732}
+  - 114: {fileID: 11415050}
   m_Layer: 0
   m_Name: b0001_nomal
   m_TagString: Bonus
@@ -103,6 +105,23 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1.70000005}
+--- !u!95 &9509732
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107302}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0180553fe715450f810360a50ea9a1c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &9553102
 Animator:
   serializedVersion: 3
@@ -137,6 +156,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11415050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511df0bc5c0414562877335e33fb8177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11475616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -271,6 +301,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .899999976
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d0180553fe715450f810360a50ea9a1c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 107302}
