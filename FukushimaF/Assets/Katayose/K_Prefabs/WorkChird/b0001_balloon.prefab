@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 511df0bc5c0414562877335e33fb8177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _helpEmoIconPrefab: {fileID: 124906, guid: 82a411302aae0a049acab7c5f87dd884, type: 2}
 --- !u!114 &11481070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -305,6 +306,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d0180553fe715450f810360a50ea9a1c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: _helpEmoIconPrefab
+      value: 
+      objectReference: {fileID: 124906, guid: 82a411302aae0a049acab7c5f87dd884, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 104304}
