@@ -21,7 +21,7 @@ public class Bird : MonoBehaviour
 
 	void Update ()
 	{
-		//runEnemy() ;
+		runEnemy() ;
 		float pos = this.transform.position.x ;
 		if( pos <= -9.5f )
 		{
