@@ -11,6 +11,8 @@ GameObject:
   - 212: {fileID: 21235208}
   - 114: {fileID: 11481070}
   - 61: {fileID: 6131848}
+  - 95: {fileID: 9589344}
+  - 114: {fileID: 11481440}
   m_Layer: 0
   m_Name: b0001_balloon
   m_TagString: Bonus
@@ -120,6 +122,23 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &9589344
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104304}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0180553fe715450f810360a50ea9a1c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &9598006
 Animator:
   serializedVersion: 3
@@ -162,6 +181,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8c2c3c0920256ef4392f77a20aa15df2, type: 3}
   - {fileID: 21300000, guid: 44da71b431e3333438d9d17e9d8587e0, type: 3}
   - {fileID: 21300000, guid: cd0fe96e976c2eb488b9c3e8b354e55b, type: 3}
+--- !u!114 &11481440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511df0bc5c0414562877335e33fb8177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21235208
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -263,6 +293,10 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d0180553fe715450f810360a50ea9a1c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 104304}
