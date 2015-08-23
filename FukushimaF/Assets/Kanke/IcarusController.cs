@@ -55,6 +55,19 @@ public partial class IcarusController : MonoBehaviour {
     void Update_Move()
     {
         float input = Input.GetAxisRaw("Vertical");
+        if (Input.GetMouseButton(0))
+        {
+            if (Input.mousePosition.y > ((float)Screen.height / 2f))
+            {
+                //上半分
+                input = 1f;
+            }
+            else
+            {
+                //下半分
+                input = -1f;
+            }
+        }
 
         if (!isKilled)
             angle += speedAngle * input * Time.deltaTime;

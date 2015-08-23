@@ -81,7 +81,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1334, y: 750}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -190,10 +190,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22422778}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -188.600006, y: 158.300003}
-  m_SizeDelta: {x: -377.299988, y: -316.600006}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 224, y: -32.6799927}
+  m_SizeDelta: {x: 443, y: 56}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22415202
 RectTransform:
@@ -209,8 +209,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 126, y: -20}
-  m_SizeDelta: {x: 237, y: 30}
+  m_AnchoredPosition: {x: 223.479996, y: -33}
+  m_SizeDelta: {x: 427, y: 48}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22422778
 RectTransform:
