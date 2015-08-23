@@ -8,7 +8,8 @@ public class Bird : MonoBehaviour
 	// : 時間の取得変数.
 	private float   time  ;
 	private float   b_Time ;
-	public  float 	speed ;
+	public  float 	speed_X ;
+	public  float   speed_Y ;
 
 	public Sprite[] bird ;
 	private int count = 0 ;
@@ -51,10 +52,12 @@ public class Bird : MonoBehaviour
 
 	public void runEnemy()
 	{
+		sound.instance.Haneoto() ;
 		// : 時間の取得.
 		b_Time = Time.deltaTime ;
 		// : 経過時間に対応した移動・反映.
-		obj_Pos.x += b_Time * -speed ;
+		obj_Pos.x += b_Time * -speed_X ;
+		obj_Pos.y += b_Time * speed_Y ;
 		this.transform.position = obj_Pos ;	
 	}
 }
