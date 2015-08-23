@@ -10,6 +10,9 @@ public partial class IcarusController : MonoBehaviour {
 	private Script_SpriteStudio_PartsRoot spriteStudioRoot;
 	private bool isKilled;
 
+    public GameObject scoreObj ;
+    Score scoreScr ;
+
     enum State
     {
         Move,
@@ -22,6 +25,9 @@ public partial class IcarusController : MonoBehaviour {
 	{
 		spriteStudioRoot = GetComponentInChildren<Script_SpriteStudio_PartsRoot>();
 		isKilled = false;
+
+        scoreObj = GameObject.Find("Score") ;
+        scoreScr = scoreObj.GetComponent<Score>() ;
 	}
 
 	void Update ()
@@ -83,8 +89,17 @@ public partial class IcarusController : MonoBehaviour {
 
  	void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log(collider.gameObject.tag);
-        Die(collider.gameObject.tag);
+        if( collider.tag == "Obstacle" )
+        {
+            Debug.Log(collider.gameObject.tag);
+            Die(collider.gameObject.tag);
+        }
+
+        if( collider.tag == "Bonus" )
+        {
+            Debug.Log(collider.gameObject.tag);
+            scoreScr.ScorePlus() ;
+        }
     }
 
     //死亡開始
