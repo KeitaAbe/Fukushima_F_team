@@ -20,12 +20,20 @@ public class ScrollController : MonoBehaviour {
     float _scrollSpeed = -1f;
     public float scrollSpeed { get { return _scrollSpeed; } }
 
+    [System.NonSerialized]
+    public bool canScroll = true;
+
     public void AddNode(ScrollNode node)
     {
         if (!_nodeList.Contains(node))
         {
             _nodeList.Add(node);
         }
+    }
+
+    public void StopScroll()
+    {
+        canScroll = false;
     }
 
     public void SpawnWave()
@@ -71,7 +79,9 @@ public class ScrollController : MonoBehaviour {
     {
         //Playerからスクロール値を取得
         var playerGObj = GameObject.FindGameObjectWithTag("Player");
-        if(playerGObj!=null){
+        var icarus = playerGObj.GetComponent<IcarusController>();
+        if (playerGObj != null && icarus != null && canScroll)
+        {
             var ccon = playerGObj.GetComponent<IcarusController>();
             if(ccon!=null){
                 _scrollSpeed = ccon.rightVelocityRate * -1f;

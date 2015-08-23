@@ -24,4 +24,9 @@ public class Score : MonoBehaviour {
         score += bonuspoint;
     }
 
+    public float GetScore()
+    {
+        return score;
+    }
+
 }

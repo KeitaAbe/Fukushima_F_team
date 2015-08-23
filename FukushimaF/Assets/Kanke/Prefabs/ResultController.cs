@@ -23,7 +23,7 @@ public class ResultController : MonoBehaviour {
 	private AudioSource aud;
 
 	// Call this for Start Result Window
-	void Result ( int sc ) {
+	public void Result ( int sc ) {
 		score = sc;
 		score_t = 0;
 		phase = 1;

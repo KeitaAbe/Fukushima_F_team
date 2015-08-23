@@ -20,6 +20,10 @@ public class WaveController : MonoBehaviour
     void Update()
     {
         var scrollController = ScrollController.instance;
+        if (!scrollController.canScroll)
+        {
+            return;
+        }
 
         var newPos = transform.localPosition;
         newPos.x += scrollController.scrollSpeed * Time.smoothDeltaTime;
