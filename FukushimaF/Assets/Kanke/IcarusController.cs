@@ -14,7 +14,7 @@ public partial class IcarusController : MonoBehaviour {
     public GameObject scoreObj ;
     Score scoreScr ;
     public GameObject _seshoutotsu;
-    public GameObject _sewater;
+    public GameObject _serakka;
 
     float _seTimer = 0f;
 
@@ -38,10 +38,6 @@ public partial class IcarusController : MonoBehaviour {
 
 	void Update ()
 	{
-        if (transform.position.y < -4f)
-        {
-            _sewater.GetComponent<AudioSource>().Play();
-        }
         switch (_status)
         {
             case State.Move:
@@ -140,7 +136,7 @@ public partial class IcarusController : MonoBehaviour {
             return;
         }
         _seshoutotsu.GetComponent<AudioSource>().Play();
-
+        _serakka.GetComponent<AudioSource>().Play();
         Debug.Log("icarus die. -> "+deadReasonTag);
 		ChangeKilledAnimation();	// Play Killed Animation...
         speed = 0f;
