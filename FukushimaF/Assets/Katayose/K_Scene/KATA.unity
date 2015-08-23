@@ -337,7 +337,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 123820, guid: a73118dc724d94dd6b03f2aed4263f6b, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6453312, guid: a73118dc724d94dd6b03f2aed4263f6b, type: 2}
       propertyPath: m_Mesh
@@ -500,7 +500,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148152, guid: 02f5065180fb04690b7774e314e95fff, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02f5065180fb04690b7774e314e95fff, type: 2}

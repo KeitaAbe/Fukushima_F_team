@@ -16,7 +16,7 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         score += icaruscontroller.rightVelocity * Time.deltaTime * 10;
-        GetComponent<Text>().text = "SCORE : " + score.ToString("N0") + " m";
+        GetComponent<Text>().text = "SCORE : " + score.ToString("N0");
 	}
     // ボーナスキャラを取得したとき関数
     public void ScorePlus()
