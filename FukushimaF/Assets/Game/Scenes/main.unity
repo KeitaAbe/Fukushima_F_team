@@ -393,6 +393,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e277a7a674bf44d6e8647237de4bf226, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &232348747 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 465290, guid: fce8b8dc0b418c141aab77d78c407040, type: 2}
+  m_PrefabInternal: {fileID: 613246722}
 --- !u!4 &251254779 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: c38b54f6e28214144b8bee2e50d706d4, type: 2}
@@ -575,11 +579,11 @@ Prefab:
     - target: {fileID: 3300000, guid: c38b54f6e28214144b8bee2e50d706d4, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1130973411}
+      objectReference: {fileID: 1391994476}
     - target: {fileID: 2300000, guid: c38b54f6e28214144b8bee2e50d706d4, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1725050887}
+      objectReference: {fileID: 791951635}
     - target: {fileID: 2000000, guid: c38b54f6e28214144b8bee2e50d706d4, type: 2}
       propertyPath: m_ClearFlags
       value: 3
@@ -653,7 +657,125 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fce8b8dc0b418c141aab77d78c407040, type: 2}
   m_IsPrefabParent: 0
---- !u!43 &1130973411
+--- !u!21 &791951635
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: icarus_MIX
+  m_Shader: {fileID: 4800000, guid: efb302fb398438b479e6d17c24d26d61, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 3ab2742853daf4ad5a63f1a6132fdf48, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _OverlayParameter_Non
+        second: {r: 1, g: 0, b: -1, a: 0}
+      data:
+        first:
+          name: _OverlayParameter_Mix
+        second: {r: 1, g: 1, b: -1, a: 1}
+      data:
+        first:
+          name: _OverlayParameter_Add
+        second: {r: 1, g: 0, b: -1, a: 1}
+      data:
+        first:
+          name: _OverlayParameter_Sub
+        second: {r: 1, g: 0, b: -1, a: -1}
+      data:
+        first:
+          name: _OverlayParameter_Mul
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &813921853
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 232348747}
+    m_Modifications:
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 455444, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 460650, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489678, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 469770, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 450562, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 446926, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 440674, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 412910, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 409052, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 02b1cd091d5264f299bc0454b89caaea, type: 2}
+  m_IsPrefabParent: 0
+--- !u!43 &1391994476
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -873,50 +995,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 31.3099995
---- !u!21 &1725050887
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: icarus_MIX
-  m_Shader: {fileID: 4800000, guid: efb302fb398438b479e6d17c24d26d61, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_CustomRenderQueue: 3000
-  stringTagMap: {}
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-      data:
-        first:
-          name: _MainTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 3ab2742853daf4ad5a63f1a6132fdf48, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-    m_Floats: {}
-    m_Colors:
-      data:
-        first:
-          name: _OverlayParameter_Non
-        second: {r: 1, g: 0, b: -1, a: 0}
-      data:
-        first:
-          name: _OverlayParameter_Mix
-        second: {r: 1, g: 1, b: -1, a: 1}
-      data:
-        first:
-          name: _OverlayParameter_Add
-        second: {r: 1, g: 0, b: -1, a: 1}
-      data:
-        first:
-          name: _OverlayParameter_Sub
-        second: {r: 1, g: 0, b: -1, a: -1}
-      data:
-        first:
-          name: _OverlayParameter_Mul
-        second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1924458330
 GameObject:
   m_ObjectHideFlags: 0
