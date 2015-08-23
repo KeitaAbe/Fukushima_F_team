@@ -40,7 +40,7 @@ public class ResultController : MonoBehaviour {
 		aud = GetComponent<AudioSource>();
 
 		// test
-		Result( 567567 );
+		//Result( 567567 );
 	}
 	
 	// Update is called once per frame

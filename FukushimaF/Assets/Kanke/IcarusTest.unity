@@ -600,6 +600,8 @@ MonoBehaviour:
   speed: .200000003
   speedAngle: 90
   scoreObj: {fileID: 0}
+  _seshoutotsu: {fileID: 0}
+  _serakka: {fileID: 0}
 --- !u!114 &1829172384
 MonoBehaviour:
   m_ObjectHideFlags: 0
