@@ -66,6 +66,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 455444}
   - 114: {fileID: 11456222}
+  - 82: {fileID: 8210738}
   m_Layer: 0
   m_Name: ResultWindow
   m_TagString: Untagged
@@ -626,6 +627,75 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &8210738
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120024}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!114 &11415120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -673,9 +743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14e0bf58d7904f069ba184e04a47d95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartPosition: {x: 0, y: 10, z: 0}
+  StartPosition: {x: 0, y: 15, z: 0}
   PausePosition: {x: 0, y: 0, z: 0}
-  EndPosition: {x: 0, y: -10, z: 0}
+  EndPosition: {x: 0, y: -15, z: 0}
   Digits:
   - {fileID: 112936}
   - {fileID: 107722}
@@ -684,6 +754,9 @@ MonoBehaviour:
   - {fileID: 152718}
   - {fileID: 139610}
   score: 0
+  timeMove: .800000012
+  seRankIn: {fileID: 8300000, guid: 7c301a916b944ff4a8658fa80e1fded8, type: 3}
+  seDecide: {fileID: 8300000, guid: a269e9f8f73f54bb8a8d6792fbca6c47, type: 3}
 --- !u!114 &11463454
 MonoBehaviour:
   m_ObjectHideFlags: 1
