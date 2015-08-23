@@ -19,17 +19,20 @@ public partial class IcarusController : MonoBehaviour {
 
     void OnGUI()
     {
-        GUILayout.BeginVertical();
-        GUILayout.Space(40);
-        GUILayout.Label("Chara Angle:" + angle);
-        GUILayout.Label("Chara Speed:" + speed);
-        GUILayout.Label("Chara rightVel:" + rightVelocity);
-        GUILayout.Label("Chara rightVelRate:" + rightVelocityRate);
-        //if (GUILayout.Button("AAAAAA"))
-        //{
-        //    var rcon = GameObject.FindObjectOfType<ResultController>();
-        //    rcon.Result((int)scoreScr.GetScore());
-        //}
-        GUILayout.EndVertical();
+        if (Debug.isDebugBuild)
+        {
+            GUILayout.BeginVertical();
+            GUILayout.Space(40);
+            GUILayout.Label("Chara Angle:" + angle);
+            GUILayout.Label("Chara Speed:" + speed);
+            GUILayout.Label("Chara rightVel:" + rightVelocity);
+            GUILayout.Label("Chara rightVelRate:" + rightVelocityRate);
+            //if (GUILayout.Button("AAAAAA"))
+            //{
+            //    var rcon = GameObject.FindObjectOfType<ResultController>();
+            //    rcon.Result((int)scoreScr.GetScore());
+            //}
+            GUILayout.EndVertical();
+        }
     }
 }
