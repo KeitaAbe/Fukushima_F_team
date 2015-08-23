@@ -13,6 +13,8 @@ public partial class IcarusController : MonoBehaviour {
     public GameObject scoreObj ;
     Score scoreScr ;
 
+    float _seTimer = 0f;
+
     enum State
     {
         Move,
@@ -91,6 +93,13 @@ public partial class IcarusController : MonoBehaviour {
             ChangeKilledAnimation();
         }
         */
+
+        _seTimer += Time.smoothDeltaTime;
+        if (_seTimer > 0.7f)
+        {
+            _seTimer = 0f;
+            sound.instance.Haneoto();
+        }
     }
 
 	void ChangeKilledAnimation () {
