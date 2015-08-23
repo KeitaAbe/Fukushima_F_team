@@ -493,7 +493,7 @@ GameObject:
   - 61: {fileID: 6195396}
   m_Layer: 0
   m_Name: LowerDeadZone
-  m_TagString: LowerDeadZone
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -667,7 +667,7 @@ GameObject:
   - 61: {fileID: 6151376}
   m_Layer: 0
   m_Name: UpperDeadZone
-  m_TagString: UpperDeadZone
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
