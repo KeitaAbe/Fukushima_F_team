@@ -3,15 +3,15 @@ using System.Collections;
 
 public class sound : MonoBehaviour {
 
-	public AudioClip kettei;
-	public AudioClip wing;
-	public AudioClip shoutotsu;
-	public AudioClip rakka;
-	public AudioClip mizuoto;
-	public AudioClip haneoto;
-	public AudioClip charaget;
-	public AudioClip gameover;
-	public AudioClip rankin;
+	public AudioSource kettei;
+	public AudioSource wing;
+	public AudioSource shoutotsu;
+	public AudioSource rakka;
+	public AudioSource mizuoto;
+	public AudioSource haneoto;
+	public AudioSource charaget;
+	public AudioSource gameover;
+	public AudioSource rankin;
 
 
 	public void Kettei(){
@@ -23,37 +23,30 @@ public class sound : MonoBehaviour {
 	}
 	
 	public void Shoutotsu(){
-		//shoutotsu = Resources.Load("Icarus_shototsu",typeof(AudioClip))as AudioClip;
 		shoutotsu.Play();
 	}
 
 	public void Rakka(){
-		//rakka = Resources.Load("Icarus_Rakka",typeof(AudioClip))as AudioClip;
 		rakka.Play();
 	}
 
 	public void Mizuoto(){
-		//mizuoto = Resources.Load("Fish_mizuoto",typeof(AudioClip))as AudioClip;
 		mizuoto.Play();
 	}
 
 	public void Haneoto(){
-		//charaget = Resources.Load("Icarus_Haneoto",typeof(AudioClip))as AudioClip;
-		charaget.Play();
+		haneoto.Play();
 	}
 
 	public void CharaGet(){
-		//charaget = Resources.Load("Bonus_Chara_GET",typeof(AudioClip))as AudioClip;
 		charaget.Play();
 	}
 
 	public void Gameover(){
-		//gameover = Resources.Load("Game_Over_Jingle",typeof(AudioClip))as AudioClip;
 		gameover.Play();
 	}
 
 	public void Rankin(){
-		//rankin = Resources.Load("RANK_In",typeof(AudioClip))as AudioClip;
 		rankin.Play();
 	}
 }
