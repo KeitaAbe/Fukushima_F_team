@@ -13,7 +13,7 @@ public class sound : MonoBehaviour {
 	public AudioSource gameover;
 	public AudioSource rankin;
 
-
+#if false
 	public void Kettei(){
 		kettei.Play();
 	}
@@ -49,4 +49,5 @@ public class sound : MonoBehaviour {
 	public void Rankin(){
 		rankin.Play();
 	}
+#endif
 }
