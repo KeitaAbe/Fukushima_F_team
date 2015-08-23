@@ -7,11 +7,14 @@ public partial class IcarusController : MonoBehaviour {
 	public float speedAngle;
 	private float angle = 0;
 	
+
 	private Script_SpriteStudio_PartsRoot spriteStudioRoot;
 	private bool isKilled;
 
     public GameObject scoreObj ;
     Score scoreScr ;
+    public GameObject _seshoutotsu;
+    public GameObject _sewater;
 
     enum State
     {
@@ -23,6 +26,7 @@ public partial class IcarusController : MonoBehaviour {
 
 	void Start ()
 	{
+
 		spriteStudioRoot = GetComponentInChildren<Script_SpriteStudio_PartsRoot>();
 		isKilled = false;
 
@@ -32,6 +36,10 @@ public partial class IcarusController : MonoBehaviour {
 
 	void Update ()
 	{
+        if (transform.position.y < -4f)
+        {
+            _sewater.GetComponent<AudioSource>().Play();
+        }
         switch (_status)
         {
             case State.Move:
@@ -122,6 +130,8 @@ public partial class IcarusController : MonoBehaviour {
         {
             return;
         }
+        _seshoutotsu.GetComponent<AudioSource>().Play();
+
         Debug.Log("icarus die. -> "+deadReasonTag);
 		ChangeKilledAnimation();	// Play Killed Animation...
         speed = 0f;
