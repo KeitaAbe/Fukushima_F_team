@@ -13,6 +13,19 @@ public class sound : MonoBehaviour {
 	public AudioSource gameover;
 	public AudioSource rankin;
 
+    public static sound _instance = null;
+    public static sound instance
+    {
+        get
+        {
+            if (! _instance)
+            {
+                _instance = FindObjectOfType<sound>();
+            }
+            return _instance;
+        }
+    }
+
 	public void Kettei(){
 		kettei.Play();
 	}

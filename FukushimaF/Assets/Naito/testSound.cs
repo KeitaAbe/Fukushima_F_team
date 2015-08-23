@@ -7,7 +7,7 @@ public class testSound : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		test.GetComponent<sound>().Kettei();
+//		test.GetComponent<sound>().Kettei();
 	}
 	
 	// Update is called once per frame

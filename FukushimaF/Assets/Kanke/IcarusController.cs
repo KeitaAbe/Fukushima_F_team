@@ -13,6 +13,8 @@ public partial class IcarusController : MonoBehaviour {
     public GameObject scoreObj ;
     Score scoreScr ;
 
+    float _seTimer = 0f;
+
     enum State
     {
         Move,
@@ -55,6 +57,19 @@ public partial class IcarusController : MonoBehaviour {
     void Update_Move()
     {
         float input = Input.GetAxisRaw("Vertical");
+        if (Input.GetMouseButton(0))
+        {
+            if (Input.mousePosition.y > ((float)Screen.height / 2f))
+            {
+                //上半分
+                input = 1f;
+            }
+            else
+            {
+                //下半分
+                input = -1f;
+            }
+        }
 
         if (!isKilled)
             angle += speedAngle * input * Time.deltaTime;
@@ -78,6 +93,13 @@ public partial class IcarusController : MonoBehaviour {
             ChangeKilledAnimation();
         }
         */
+
+        _seTimer += Time.smoothDeltaTime;
+        if (_seTimer > 0.7f)
+        {
+            _seTimer = 0f;
+            sound.instance.Haneoto();
+        }
     }
 
 	void ChangeKilledAnimation () {
