@@ -12,6 +12,8 @@ public class Fish : MonoBehaviour
 	{
 		if( jumpFlag )
 		{
+			sound.instance.Mizuoto() ;
+
 			GetComponent<Rigidbody2D>().AddForce(Vector2.up   * thrust_UP) ;
 			GetComponent<Rigidbody2D>().AddForce(Vector2.left * thrust_LEFT) ;
 			

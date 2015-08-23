@@ -245,7 +245,7 @@ MonoBehaviour:
   obj:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   - {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
-  - {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
+  - {fileID: 191816, guid: 1e4f8c24065b74424b39deeb6da4fc82, type: 2}
   rand: 0
 --- !u!114 &11458628
 MonoBehaviour:
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj:
   - {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
-  - {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
+  - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
   rand: 0
 --- !u!212 &21225282
 SpriteRenderer:
@@ -314,6 +314,14 @@ Prefab:
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: obj.Array.data[1]
+      value: 
+      objectReference: {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
+    - target: {fileID: 0}
+      propertyPath: obj.Array.data[2]
+      value: 
+      objectReference: {fileID: 191816, guid: 1e4f8c24065b74424b39deeb6da4fc82, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 193184}

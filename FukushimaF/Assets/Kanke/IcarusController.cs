@@ -10,15 +10,11 @@ public partial class IcarusController : MonoBehaviour {
 
 	private Script_SpriteStudio_PartsRoot spriteStudioRoot;
 	private bool isKilled;
-    private bool iseffect;
 
     public GameObject scoreObj ;
     Score scoreScr ;
     public GameObject _seshoutotsu;
     public GameObject _serakka;
-    public GameObject waterEffect;
-    public GameObject fireEffect;
-    public GameObject damageEffect;
 
     float _seTimer = 0f;
 
@@ -26,6 +22,8 @@ public partial class IcarusController : MonoBehaviour {
     {
         Move,
         Dead,
+        DisplayResult,
+        DisplayResult2,
     }
     State _status = State.Move;
     float _deadTimer = 0f;
@@ -35,7 +33,6 @@ public partial class IcarusController : MonoBehaviour {
 
 		spriteStudioRoot = GetComponentInChildren<Script_SpriteStudio_PartsRoot>();
 		isKilled = false;
-        iseffect = false;
 
         scoreObj = GameObject.Find("Score") ;
         scoreScr = scoreObj.GetComponent<Score>() ;
@@ -43,11 +40,6 @@ public partial class IcarusController : MonoBehaviour {
 
 	void Update ()
 	{
-        if (transform.position.y < -2.7f && !iseffect)
-        {
-            iseffect = true;
-            Instantiate(waterEffect, transform.position, transform.rotation);
-        }
         switch (_status)
         {
             case State.Move:
@@ -61,8 +53,22 @@ public partial class IcarusController : MonoBehaviour {
                     _deadTimer += Time.smoothDeltaTime;
                     if (_deadTimer > 2f)
                     {
-                        Application.LoadLevel("Title");
+                        //Application.LoadLevel("Title");
+                        _status = State.DisplayResult;
                     }
+                }
+                break;
+
+            case State.DisplayResult:
+                {
+                    var rcon = GameObject.FindObjectOfType<ResultController>();
+                    rcon.Result((int)scoreScr.GetScore());
+                    _status = State.DisplayResult2;
+                }
+                break;
+            case State.DisplayResult2:
+                {
+
                 }
                 break;
         }
@@ -145,27 +151,13 @@ public partial class IcarusController : MonoBehaviour {
         {
             return;
         }
-        if (transform.position.y > 1.3f)
-        {
-            GameObject obj = (GameObject)Instantiate(fireEffect, transform.position, Quaternion.identity);
-            obj.transform.parent = transform;
-            Invoke("waterEffectIns", 0.7f);
-        }
-        else if (transform.position.y > -1.6f)
-        {
-            Instantiate(damageEffect, transform.position, transform.rotation);
-        }
         _seshoutotsu.GetComponent<AudioSource>().Play();
         _serakka.GetComponent<AudioSource>().Play();
         Debug.Log("icarus die. -> "+deadReasonTag);
 		ChangeKilledAnimation();	// Play Killed Animation...
         speed = 0f;
         _status = State.Dead;
+        ScrollController.instance.StopScroll();
     }
 
-    void waterEffectIns()
-    {
-        Vector2 pos = new Vector2(transform.position.x, -2.4f);
-        Instantiate(waterEffect, pos, Quaternion.identity);
-    }
 }

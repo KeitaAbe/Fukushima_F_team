@@ -128,7 +128,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.0999999, y: 2.4000001, z: 0}
+  m_LocalPosition: {x: -5.0999999, y: -6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 494804}
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj:
-  - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
+  - {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
   - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
   rand: 0
 --- !u!114 &11484380
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj:
   - {fileID: 116330, guid: 9f3e8dae045b74b5a96d6ee8ad63c4ca, type: 2}
-  - {fileID: 188516, guid: f758dedac11c04259a411fd968fcc2cd, type: 2}
+  - {fileID: 191816, guid: 1e4f8c24065b74424b39deeb6da4fc82, type: 2}
   rand: 0
 --- !u!1001 &100100000
 Prefab:
@@ -287,6 +287,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: obj.Array.data[1]
+      value: 
+      objectReference: {fileID: 191816, guid: 1e4f8c24065b74424b39deeb6da4fc82, type: 2}
+    - target: {fileID: 0}
+      propertyPath: obj.Array.data[0]
+      value: 
+      objectReference: {fileID: 107302, guid: cab7626b1419345c0b2fb6248418c30d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: -6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

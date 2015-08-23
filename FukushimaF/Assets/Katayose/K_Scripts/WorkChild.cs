@@ -6,12 +6,18 @@ public class WorkChild : MonoBehaviour
 	Animator animator ;
 	float time = 0.0f ;
 	bool  isColl = false ;
+    public GameObject _helpEmoIconPrefab = null;
+    GameObject _helpEmoIcon = null;
 
 	void Start ()
 	{
 		animator = GetComponent<Animator>() ;
 		animator.speed = 0.0f ;
-	}
+
+        _helpEmoIcon = GameObject.Instantiate<GameObject>(_helpEmoIconPrefab);
+        _helpEmoIcon.transform.SetParent(transform, false);
+        _helpEmoIcon.transform.localPosition = new Vector3(-0.5f, 0.5f, -1f);
+    }
 
 	void Update ()
 	{
@@ -35,6 +41,12 @@ public class WorkChild : MonoBehaviour
 		{
 			isColl = true ;
 			sound.instance.CharaGet() ;
+            animator.Play("WorkChild");
+
+            if (_helpEmoIcon)
+            {
+                Destroy(_helpEmoIcon);
+            }
 		}
 	}
 }

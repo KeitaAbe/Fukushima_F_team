@@ -25,6 +25,11 @@ public partial class IcarusController : MonoBehaviour {
         GUILayout.Label("Chara Speed:" + speed);
         GUILayout.Label("Chara rightVel:" + rightVelocity);
         GUILayout.Label("Chara rightVelRate:" + rightVelocityRate);
+        //if (GUILayout.Button("AAAAAA"))
+        //{
+        //    var rcon = GameObject.FindObjectOfType<ResultController>();
+        //    rcon.Result((int)scoreScr.GetScore());
+        //}
         GUILayout.EndVertical();
     }
 }
