@@ -22,6 +22,8 @@ public partial class IcarusController : MonoBehaviour {
     {
         Move,
         Dead,
+        DisplayResult,
+        DisplayResult2,
     }
     State _status = State.Move;
     float _deadTimer = 0f;
@@ -51,8 +53,22 @@ public partial class IcarusController : MonoBehaviour {
                     _deadTimer += Time.smoothDeltaTime;
                     if (_deadTimer > 2f)
                     {
-                        Application.LoadLevel("Title");
+                        //Application.LoadLevel("Title");
+                        _status = State.DisplayResult;
                     }
+                }
+                break;
+
+            case State.DisplayResult:
+                {
+                    var rcon = GameObject.FindObjectOfType<ResultController>();
+                    rcon.Result((int)scoreScr.GetScore());
+                    _status = State.DisplayResult2;
+                }
+                break;
+            case State.DisplayResult2:
+                {
+
                 }
                 break;
         }
@@ -141,5 +157,7 @@ public partial class IcarusController : MonoBehaviour {
 		ChangeKilledAnimation();	// Play Killed Animation...
         speed = 0f;
         _status = State.Dead;
+        ScrollController.instance.StopScroll();
     }
+
 }
